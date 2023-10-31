@@ -21,11 +21,7 @@
 	align-items: center;
 }
 
-header a{
-	transition: background-color 0.3s, color 0.3s;
-}
-
-header a:hover {
+nav a:hover {
 	background-color: #6D48C6;
 	color: #8CCCF1;
 	border-radius: 10px;
@@ -37,17 +33,20 @@ nav{
 	text-align:end;
 	flex-direction: row;
 	justify-content: flex-end;
+	position: sticky; 
+	top: 0%; 
 }
 
 nav a { 
-	margin: 5%; 
+	margin: 2%; 
 	color: #6D48C6;
-	background: #8CCCF1;
+	background-color: #8CCCF1;
 	font-family: "Barlow Black";
-	padding: 10px; 
+	padding: 15px; 
 	text-decoration: none;
-	border-radius: 5px; 
-	width: 100%; 
+	border-radius: 10px; 
+	width: 200px; 
+	transition: background-color 0.3s, color 0.3s;
 }
 
 /*galeria*/
@@ -120,6 +119,63 @@ ul.slider li:target {
 	margin-bottom: 10px;
 }
 
+/*sobre nosotros*/
+h2{
+	color:#6D48C6;
+	font-family: "Barlow Black";
+	font-size: 45px;
+}
+
+.sobre-nosotros {
+	position: relative;
+}
+
+.fondo-derecha, .fondo-abajo {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.fondo-derecha {
+	background: #6D48C6;
+	z-index: 1; /* Fondo trasero */
+	transform: translate(30px, 30px);/* Desplazamiento hacia la derecha y abajo */
+	width: 900px;
+	height: 500px;
+}
+
+.fondo-abajo {
+	background: #FFD99D;
+	z-index: 2; /* Fondo delantero */
+	width: 900px;
+	height: 500px;
+}
+
+.contenido {
+	text-align: center;
+	color: #fff;
+	padding: 20px;
+	border-radius: 5px;
+	position: relative;
+	z-index: 3; /* Contenido delante de los fondos */
+}
+
+p{
+	text-align:left;
+	font-family: "Barlow Medium";
+	padding-left: 50px;
+	padding-right: 50px;
+	width: 700px;
+	text-indent: 30px;
+	line-height: 30px;
+	font-size: 20px;
+	color: black;
+}
+
+.negrita{
+	font-family:'Barlow Black';
+}
+
 footer{
 	width: 100%;
 	height: 80px;
@@ -127,5 +183,11 @@ footer{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	flex-direction: column;
+}
+
+ul .redes-sociales {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
 }
