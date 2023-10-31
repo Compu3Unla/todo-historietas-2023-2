@@ -126,10 +126,15 @@ h2 {
 	color:#6D48C6;
 	font-family: "Barlow Black";
 	font-size: 45px;
+	text-align: left; 
+	margin-left: 4%; 
+	margin-bottom: 2%; 
 }
 
 .sobre-nosotros {
 	position: relative;
+	margin-bottom: 10%;
+	margin-top: 10%; 
 }
 
 .fondo-derecha, .fondo-abajo {
@@ -185,6 +190,8 @@ h2 {
 	font-family:'Barlow Black';
 }
 
+/*index*/
+
 footer{
 	width: 100%;
 	height: 80px;
@@ -202,4 +209,69 @@ footer{
 
 footer ul a {
 	padding: 10%; 
+}
+
+footer p {
+	font-family: "Barlow Medium";
+	color:#9FCCED;
+	margin-right: 4%; 
+}
+
+/*Formulario*/
+
+form {
+	display: flex;
+	flex-direction: column; 
+	margin-bottom: 5%; 
+	margin-right: 5%; 
+	align-items: flex-end; 
+}
+
+.input-nombre, .input-correo, .input-asunto {
+	font-family: "Barlow Medium";
+	font-size: 23px; 
+	background-color:#9FCCED;
+	border-radius: 45px; 
+	padding: 2%; 
+	margin: 1%;  
+	width: 25%;
+	height: 3px; 
+	border-style: solid;
+	border-width: 0.5%; 
+}
+
+.espacio-mensaje {
+	font-family: "Barlow Medium";
+	font-size: 23px;
+	background-color:#9FCCED;
+	border-radius: 45px; 
+	padding: 2%; 
+	margin: 1%;
+	width: 25%;
+	height: 60px;
+	border-style: solid;
+	border-width: 0.5%; 
+}
+
+.boton-enviar {
+	width: 10%; 
+	font-family: "Barlow Medium";
+	font-size: 23px;
+	background-color:#9FCCED;
+	border-radius: 45px; 
+	padding: 2%; 
+	margin: 1%;
+	height: 3px; 
+	display: flex;
+	flex-direction: column; 
+	align-items: center; 
+	justify-content: center; 
+	border-style: solid;
+	border-width: 0.3%; 
+}
+
+.boton-enviar:hover {
+	background-color: #6D48C6; 
+	transition: background-color 0.3s;
+	color: white; 
 }
