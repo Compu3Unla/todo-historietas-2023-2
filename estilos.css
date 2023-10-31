@@ -140,6 +140,13 @@ h2 {
 	margin-bottom: 2%; 
 }
 
+.flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
 .sobre-nosotros {
 	position: relative;
 	margin-bottom: 10%;
@@ -198,14 +205,6 @@ h2 {
 .negrita p{
 	font-family:'Barlow Black';
 }
-
-.flex{
-	display: flex;
-	align-content: center;
-	align-items: center;
-}
-
-/*index*/
 
 footer{
 	width: 100%;
