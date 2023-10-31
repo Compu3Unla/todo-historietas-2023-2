@@ -23,10 +23,19 @@ header {
 	top: 0%; 
 }
 
+img.logo {
+	width: 127px;
+	height: 69px;
+	padding: 10px;
+	display: flex;
+	justify-content: flex-start
+}
+
 nav{
 	display: flex;
 	text-align:end;
 	flex-direction: row;
+	align-items: center;
 	justify-content: flex-end;
 	margin-right: 35px; 
 	margin-left: 550px; 
@@ -131,7 +140,14 @@ h2 {
 	margin-bottom: 2%; 
 }
 
-.sobre-nosotros {
+.flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+#sobre-nosotros {
 	position: relative;
 	margin-bottom: 10%;
 	margin-top: 10%; 
@@ -186,11 +202,9 @@ h2 {
 	color: black;
 }
 
-.negrita{
+.negrita p{
 	font-family:'Barlow Black';
 }
-
-/*index*/
 
 footer{
 	width: 100%;
@@ -274,4 +288,54 @@ form {
 	background-color: #6D48C6; 
 	transition: background-color 0.3s;
 	color: white; 
+}
+
+/*Info personajes*/
+.fondo-derecha-pers, .fondo-abajo-pers {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.fondo-derecha-pers{
+	background: black;
+	z-index: 1; /* Fondo trasero */
+	transform: translate(30px, 30px);/* Desplazamiento hacia la derecha y abajo */
+	width: 900px;
+	height: 500px;
+	border-radius: 45px;
+	border-style: solid; 
+	border-width: 2px;
+		
+}
+
+.fondo-abajo-pers {
+	background: #FFD99D;
+	z-index: 2; /* Fondo delantero */
+	width: 900px;
+	height: 500px;
+	border-radius: 45px; 
+	border-style: solid;
+	border-width: 2px; 
+}
+
+.contenido-pers {
+	text-align: center;
+	color: #fff;
+	padding: 20px;
+	border-radius: 5px;
+	position: relative;
+	z-index: 3; /* Contenido delante de los fondos */
+}
+
+.contenido-pers p {
+	text-align:left;
+	font-family: "Barlow Medium";
+	padding-left: 50px;
+	padding-right: 50px;
+	width: 700px;
+	text-indent: 30px;
+	line-height: 30px;
+	font-size: 20px;
+	color: black;
 }
