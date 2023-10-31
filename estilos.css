@@ -127,33 +127,31 @@ h2{
 	font-size: 45px;
 }
 
-.sobre-nosotros, .background{
+.fondo-derecha,.fondo-abajo {
 	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
+	width: 800px;
 	height: 100%;
 }
 
-.sobre-nosotros{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	min-height: 100vh;
-	background:#FFD99D;
-	z-index: 1px;
+.fondo-derecha {
+	background: #6D48C6;
+	z-index: 1; /* Fondo trasero */
+	transform: translateX(50%); /* Desplazamiento hacia la derecha */
 }
 
-.background{
-	text-align:left;
-	color: black;
-	padding: 20px;
-	border-radius: 5px;
-	box-shadow: #FFD99D;
-	z-index: 5px;
+.fondo-abajo {
+	background: #FFD99D;
+	z-index: 2; /* Fondo delantero */
+	transform: translateY(20%); /* Desplazamiento hacia abajo */
+}
+
+.sobre-nosotros{
+	position: relative;
+	z-index: 3; /* Contenido delante de los fondos */
 }
 
 p{
+	text-align:left;
 	font-family: "Barlow Medium";
 	padding-left: 50px;
 	padding-right: 50px;
