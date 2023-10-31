@@ -24,11 +24,11 @@ header {
 }
 
 img.logo {
-    width: 127px;
-    height: 69px;
-    padding: 10px;
-    display: flex;
-    justify-content: flex-start
+	width: 127px;
+	height: 69px;
+	padding: 10px;
+	display: flex;
+	justify-content: flex-start
 }
 
 nav{
@@ -195,8 +195,14 @@ h2 {
 	color: black;
 }
 
-.negrita{
+.negrita p{
 	font-family:'Barlow Black';
+}
+
+.flex{
+	display: flex;
+	align-content: center;
+	align-items: center;
 }
 
 /*index*/
