@@ -49,6 +49,9 @@ nav a {
 /*galeria*/
 .galeria{
 	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 ul, li {
