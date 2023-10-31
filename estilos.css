@@ -19,11 +19,8 @@ header {
 	flex-direction: row;
 	justify-content: flex-end;
 	align-items: center;
-}
-
-nav a:hover {
-	background-color: #6D48C6;
-	color: #8CCCF1;
+	position: sticky; 
+	top: 0%; 
 }
 
 nav{
@@ -31,10 +28,13 @@ nav{
 	text-align:end;
 	flex-direction: row;
 	justify-content: flex-end;
-	position: sticky; 
-	top: 0%; 
 	margin-right: 35px; 
 	margin-left: 550px; 
+}
+
+nav a:hover {
+	background-color: #6D48C6;
+	color: #8CCCF1;
 }
 
 nav a {  
