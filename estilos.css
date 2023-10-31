@@ -23,18 +23,19 @@ header {
 	top: 0%; 
 }
 
-.logo img{
-	width: 127px;
-	height: 69px;
-	padding: 10px;
-	display: flex;
-	align-items: flex-start;
+img.logo {
+    width: 127px;
+    height: 69px;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start
 }
 
 nav{
 	display: flex;
 	text-align:end;
 	flex-direction: row;
+	align-items: center;
 	justify-content: flex-end;
 	margin-right: 35px; 
 	margin-left: 550px; 
