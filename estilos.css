@@ -127,25 +127,38 @@ h2{
 	font-size: 45px;
 }
 
-.fondo-derecha,.fondo-abajo {
-	position: absolute;
+.sobre-nosotros {
+	position: relative;
 	width: 800px;
-	height: 100%;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.fondo-derecha, .fondo-abajo {
+	position: absolute;
+	width: 200%;
+	height: 200%;
+	top: 0;
+	left: 0;
 }
 
 .fondo-derecha {
 	background: #6D48C6;
 	z-index: 1; /* Fondo trasero */
-	transform: translateX(50%); /* Desplazamiento hacia la derecha */
+	transform: translate(20%, 20%); /* Desplazamiento hacia la derecha y abajo */
 }
 
 .fondo-abajo {
 	background: #FFD99D;
 	z-index: 2; /* Fondo delantero */
-	transform: translateY(20%); /* Desplazamiento hacia abajo */
 }
 
-.sobre-nosotros{
+.contenido {
+	text-align: center;
+	color: #fff;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 	position: relative;
 	z-index: 3; /* Contenido delante de los fondos */
 }
