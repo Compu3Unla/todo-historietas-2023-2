@@ -94,7 +94,7 @@ ul.slider li {
 
 ul.slider li img{
 	width: 100%;
-	height: 300px;
+	height: 600px;
 	object-fit: cover;
 }
 
@@ -339,3 +339,11 @@ form {
 	font-size: 20px;
 	color: black;
 }
+/* seccion novedades video */
+video{
+	display: flex;
+	align: center;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 10px;
+
