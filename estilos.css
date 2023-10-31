@@ -39,13 +39,15 @@ nav{
 	justify-content: flex-end;
 }
 
-nav a {
+nav a { 
+	margin: 5%; 
 	color: #6D48C6;
 	background: #8CCCF1;
 	font-family: "Barlow Black";
-	padding:14px 20px;
+	padding: 10px; 
 	text-decoration: none;
 }
+
 /*galeria*/
 .galeria{
 	width: 100%;
