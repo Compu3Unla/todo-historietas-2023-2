@@ -126,6 +126,16 @@ ul.slider li:target {
 	border-radius: 100%;
 	margin-bottom: 10px;
 }
+/*carrusel*/
+.carrusel{
+	aspect-radio:10/16;
+	width:900px;
+	position:relative;
+	display:flex;
+	overflow:scroll;
+	scroll-snap-type: x mandatory;
+	
+}
 
 /*sobre nosotros*/
 
