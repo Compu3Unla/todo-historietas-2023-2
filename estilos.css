@@ -76,13 +76,11 @@ nav a {
 }
 
 ul.slider{
-	position: relative;
-	width: 800px;
-	height: 300px;
+	width: 900px;
+	height: 600px;
 }
 
 ul.slider li {
-	position: absolute;
 	left: 0px;
 	top: 0px;
 	opacity: 0;
@@ -127,6 +125,16 @@ ul.slider li:target {
 	font-size: 12px;
 	border-radius: 100%;
 	margin-bottom: 10px;
+}
+/*carrusel*/
+.carrusel{
+	aspect-radio:10/16;
+	width:900px;
+	position:relative;
+	display:flex;
+	overflow:scroll;
+	scroll-snap-type: x mandatory;
+	
 }
 
 /*sobre nosotros*/
@@ -346,4 +354,5 @@ video{
 	flex-direction: column;
 	align-items: center;
 	padding-bottom: 10px;
-
+	}
+	
