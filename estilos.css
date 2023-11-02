@@ -266,7 +266,7 @@ form {
 	align-items: flex-end; 
 }
 
-.input-nombre, .input-correo, .input-asunto, textarea{
+.input-nombre, .input-correo, .input-asunto,{
 	font-family: "Barlow Medium";
 	font-size: 23px; 
 	background-color:#9FCCED;
