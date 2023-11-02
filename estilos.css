@@ -455,7 +455,7 @@ form {
 @media screen and (max-width:600px) {
 	
 	header {
-	height: 280px;
+	height: 290px;
     }
 	
 	nav{
@@ -465,15 +465,14 @@ form {
 	justify-content: flex-end;
 	margin-right: 100px; 
 	margin-left: 100px; 
-	
-}
+	}
 	
 	nav a { 
 	font-size: 20px; 
 	padding: 15px; 
 	border-radius: 45px; 
 	width: 150px; 
-}
+	}
 	
 }
 	
