@@ -8,7 +8,7 @@
 
 /*index*/
 .fondo{
-	background-image: url("img/fondo_index.jpg");  	
+	background-image: url("img/fondo_index.jpg");  
 }
 
 header {
@@ -263,6 +263,10 @@ footer p {
 	flex-direction: row;
 }
 
+.img-formulario {
+	margin-left: 110px; 
+}
+
 form {
 	display: flex;
 	flex-direction: column; 
@@ -276,30 +280,37 @@ form {
 	font-family: "Barlow Medium";
 	font-size: 23px; 
 	background-color:#9FCCED;
-	border-radius: 45px; 
+	border-radius: 40px; 
 	padding: 2%; 
 	margin: 1%;  
-	width: 25%;
+	width: 40%;
 	height: 3px; 
 	border-style: solid;
 	border-width: 0.5%; 
+}
+
+.label-mensaje {
+	font-family: "Barlow Medium";
+	font-size: 18px; 
+	color: black; 
+	margin-top: 10px; 
 }
 
 .espacio-mensaje {
 	font-family: "Barlow Medium";
 	font-size: 23px;
 	background-color:#9FCCED;
-	border-radius: 45px; 
+	border-radius: 40px; 
 	padding: 2%; 
 	margin: 1%;
-	width: 25%;
+	width: 40%;
 	height: 60px;
 	border-style: solid;
 	border-width: 0.5%; 
 }
 
 .boton-enviar {
-	width: 10%; 
+	width: 13%; 
 	font-family: "Barlow Medium";
 	font-size: 23px;
 	background-color:#9FCCED;
@@ -454,9 +465,10 @@ form {
 	padding: 10px;
 }
 
-/* media index */
 
 @media screen and (max-width:600px) {
+	
+	/* media index */
 	
 	header {
 	height: 290px;
@@ -502,9 +514,8 @@ form {
 	height: 700px; 
 	}
 	
+/* media sobre nosotros */
 	
-	/*sobre nosotros media*/
-
 h2 {
 	margin-left: 1%; 
 }
@@ -543,12 +554,16 @@ h2 {
 	width: 430px;
 }
 	
-/*Formulario*/
+/* media formulario*/
 
 #formulario{
 	display: flex;
 	flex-direction: column; 
 	align-items: center; 
+}
+	
+.img-formulario {
+	margin-left: 0px; 
 }
 
 form {
@@ -564,6 +579,20 @@ form {
 .boton-enviar {
 	font-size: 30px;
 }
+	
+	/* media novedades */
+	
+	.flex-novedades {
+		display: flex; 
+		flex-direction: column; 
+		justify-content: center;  
+		align-items: center; 
+	}
+	
+	.novedades {
+		display: flex; 
+		flex-direction: column; 
+	}
 
 }
 	
