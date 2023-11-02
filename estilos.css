@@ -395,8 +395,10 @@ video{
 }
 
 .contenedor{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 	position: relative;
-	display: inline-block;
 }
 
 .texto-superpuesto {
@@ -406,6 +408,7 @@ video{
 	width: 100%;
 	height: 80%;
 	display: flex;
+	flex:1;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
