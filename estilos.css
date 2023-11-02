@@ -595,6 +595,7 @@ h2 {
 #formulario{
 	display: flex;
 	flex-direction: column; 
+	align-items: center; 
 }
 
 form {
@@ -602,7 +603,7 @@ form {
 	flex-direction: column; 
 	align-items: center; 
 	justify-content: center;
-	width: 100%;
+	width: 1600px; 
 	height: 100%;
 }
 
