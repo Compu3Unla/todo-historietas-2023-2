@@ -81,6 +81,8 @@ footer{
     display: flex;
     overflow: hidden;
     position: relative;
+    max-width: 100%;
+    transition: 0.5s;
 }
 
 .imagen {
@@ -93,8 +95,8 @@ input[type="radio"] {
     display: none;
 }
 
-input[type="radio"]:checked + .imagen {
-    margin-left: -100%;
+input[type="radio"]:checked ~ .slider .imagen {
+    transform: translateX(-100%);
 }
 
 .menu {
@@ -111,7 +113,7 @@ label:hover {
     background-color: #ddd;
 }
 
-.personajes a {
+a {
     display: block;
     text-align: center;
 }
@@ -120,6 +122,7 @@ img {
     max-width: 100%;
     height: auto;
 }
+
 
 /*carrusel*/
 .carrusel {
