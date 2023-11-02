@@ -405,6 +405,7 @@ form {
 	align-items: center;
 	justify-content: space-between;
 	position: relative;
+	margin-left: -80px; 
 }
 
 .texto-superpuesto {
