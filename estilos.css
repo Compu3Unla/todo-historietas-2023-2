@@ -368,15 +368,16 @@ form {
 .video{
 	display: flex;
 	flex-direction: row;
-	justify-content: flex-start;
+	justify-content: center; 
 	align-items: center;
-	padding-bottom: 10px;
+	margin-bottom: 7%; 
+	margin-top: 7%; 
 }	
 
 .novedades{
 	display: flex;
 	flex-direction: row;
-	flex-wrap: nowrap
+	flex-wrap: nowrap; 
 }
 
 .columna1{
@@ -396,6 +397,7 @@ form {
 .mafalda, .hijitus, .clemente, .pereyra {
 	margin-bottom: 20px;
 	display: flex;
+	
 }
 
 .contenedor{
@@ -403,6 +405,7 @@ form {
 	align-items: center;
 	justify-content: space-between;
 	position: relative;
+	margin-left: -80px; 
 }
 
 .texto-superpuesto {
