@@ -569,21 +569,17 @@ h2 {
 }
 
 .texto-sn {
-	padding-left: 20px;
-	padding-right: 30px;
+	padding-left: 3px;
+	padding-right: 10px;
 	width: 450px;
-	line-height: 30px;
 	font-size: 20px;
-	color: black;
 }
 
 .negrita {
-	padding-left: 20px;
-	padding-right: 30px;
+	padding-left: 3px;
+	padding-right: 10px;
 	width: 450px;
-	line-height: 30px;
 	font-size: 20px;
-	color: black;
 }
 	
 /*Formulario*/
