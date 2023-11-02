@@ -449,3 +449,31 @@ form {
 	font-size: 15px;
 	padding: 10px;
 }
+
+/* media index */
+
+@media screen and (max-width:600px) {
+	
+	header {
+	height: 300px;
+    }
+	
+	nav{
+	display: flex;
+	text-align:end;
+	flex-direction: column; 
+	align-items: center;
+	justify-content: flex-end;
+	margin-right: 35px; 
+	margin-left: 15px; 
+}
+	
+	nav a {  
+	padding: 20px; 
+	margin: 12px; 
+	border-radius: 25px; 
+	width: 130px; 
+}
+	
+}
+	
