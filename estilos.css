@@ -454,9 +454,10 @@ form {
 	padding: 10px;
 }
 
-/* media index */
 
 @media screen and (max-width:600px) {
+	
+	/* media index */
 	
 	header {
 	height: 290px;
@@ -563,6 +564,13 @@ form {
 .boton-enviar {
 	font-size: 30px;
 }
+	
+	/* media novedades */
+	
+	.flex-novedades {
+		display: flex; 
+		flex-direction: column; 
+	}
 
 }
 	
