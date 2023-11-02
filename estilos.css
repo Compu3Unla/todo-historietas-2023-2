@@ -8,7 +8,7 @@
 
 /*index*/
 .fondo{
-	background-image: url("img/fondo_index.jpg");  	
+	background-image: url("img/fondo_index.jpg");  
 }
 
 header {
@@ -568,6 +568,12 @@ form {
 	/* media novedades */
 	
 	.flex-novedades {
+		display: flex; 
+		flex-direction: column; 
+		justify-content: center; 
+	}
+	
+	.novedades {
 		display: flex; 
 		flex-direction: column; 
 	}
