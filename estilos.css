@@ -335,7 +335,7 @@ form {
 	left: 0;
 }
 
-.fondo-derecha-pers{
+.fondo-derecha-pers {
 	background: black;
 	z-index: 1; /* Fondo trasero */
 	transform: translate(30px, 30px);/* Desplazamiento hacia la derecha y abajo */
