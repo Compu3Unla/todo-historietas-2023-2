@@ -152,6 +152,7 @@ ul.slider li:target {
 	display: flex;
 	justify-content: center;
 	align-content: center; 
+	flex-direction: column;
 }
 
 /*sobre nosotros*/
