@@ -349,8 +349,8 @@ form {
 
 .mafalda-info, .clemente-info, .paturuzu-info, .eternauta-info, .pereyra-info, .hijitus-info {
 	position: relative;
-	margin-bottom: 10%;
-	margin-top: 10%; 
+	margin-top: 5%;
+	margin-bottom: 10%; 
 	z-index: -1; 
 }
 
