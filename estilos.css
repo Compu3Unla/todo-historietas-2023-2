@@ -569,22 +569,18 @@ h2 {
 }
 
 .texto-sn {
-	text-align:left;
-	font-family: "Barlow"; 
 	padding-left: 50px;
 	padding-right: 50px;
-	width: 700px;
+	width: 350px;
 	line-height: 30px;
 	font-size: 20px;
 	color: black;
 }
 
 .negrita {
-	text-align:left;
-	font-family: 'Barlow SemiBold'; 
 	padding-left: 50px;
 	padding-right: 50px;
-	width: 700px;
+	width: 350px;
 	line-height: 30px;
 	font-size: 20px;
 	color: black;
