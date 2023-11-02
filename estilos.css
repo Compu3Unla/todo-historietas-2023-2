@@ -55,7 +55,7 @@ nav a {
 	margin: 6px; 
 	text-decoration: none;
 	border-radius: 25px; 
-	width: 110px; 
+	width: 120px; 
 	transition: background-color 0.3s, color 0.3s;
 }
 
@@ -127,9 +127,9 @@ ul.slider li:target {
 	margin-bottom: 10px;
 }
 /*carrusel*/
-.carrusel{
+.carrusel {
 	aspect-radio:10/16;
-	width:900px;
+	width:100%;
 	position:relative;
 	display:flex;
 	overflow:scroll;
@@ -137,15 +137,21 @@ ul.slider li:target {
 	
 }
 
+.carrusel-autores {
+	display: flex;
+	justify-content: center;
+	align-content: center; 
+}
+
 /*sobre nosotros*/
 
 h2 {
 	color:#6D48C6;
-	font-family: "Barlow Black";
+	font-family: "Barlow Black"; 
 	font-size: 45px;
 	text-align: left; 
-	margin-left: 4%; 
-	margin-bottom: 2%; 
+	margin-left: 6.5%; 
+	margin-bottom: 2.5%; 
 }
 
 .flex {
@@ -190,6 +196,8 @@ h2 {
 }
 
 .contenido {
+	margin-top: 10px; 
+	margin-left: 30px; 
 	text-align: center;
 	color: #fff;
 	padding: 20px;
@@ -198,20 +206,26 @@ h2 {
 	z-index: 3; /* Contenido delante de los fondos */
 }
 
-.contenido p {
+.texto-sn {
 	text-align:left;
-	font-family: "Barlow Medium";
+	font-family: Barlow; 
 	padding-left: 50px;
 	padding-right: 50px;
 	width: 700px;
-	text-indent: 30px;
 	line-height: 30px;
 	font-size: 20px;
 	color: black;
 }
 
-.negrita p{
-	font-family:'Barlow Black';
+.negrita {
+	text-align:left;
+	font-family: 'Barlow SemiBold'; 
+	padding-left: 50px;
+	padding-right: 50px;
+	width: 700px;
+	line-height: 30px;
+	font-size: 20px;
+	color: black;
 }
 
 footer{
@@ -338,7 +352,7 @@ form {
 
 .contenido-pers p {
 	text-align:left;
-	font-family: "Barlow Medium";
+	font-family: "Barlow Medium";  
 	padding-left: 50px;
 	padding-right: 50px;
 	width: 700px;
