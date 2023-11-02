@@ -263,6 +263,10 @@ footer p {
 	flex-direction: row;
 }
 
+.img-formulario {
+	margin-left: 110px; 
+}
+
 form {
 	display: flex;
 	flex-direction: column; 
