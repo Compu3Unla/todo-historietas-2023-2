@@ -570,7 +570,8 @@ form {
 	.flex-novedades {
 		display: flex; 
 		flex-direction: column; 
-		justify-content: center; 
+		justify-content: center;  
+		align-items: center; 
 	}
 	
 	.novedades {
