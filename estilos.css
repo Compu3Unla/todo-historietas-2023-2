@@ -392,6 +392,7 @@ video{
 
 .mafalda, .hijitus, .clemente, .pereyra {
 	margin-bottom: 20px;
+	display: flex;
 }
 
 .contenedor{
