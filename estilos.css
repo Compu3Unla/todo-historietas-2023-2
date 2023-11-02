@@ -506,12 +506,7 @@ form {
 	/*sobre nosotros media*/
 
 h2 {
-	color:#6D48C6;
-	font-family: "Barlow Black"; 
-	font-size: 45px;
-	text-align: left; 
-	margin-left: 6.5%; 
-	margin-bottom: 2.5%; 
+	margin-left: 1%; 
 }
 
 .flex {
@@ -519,42 +514,16 @@ h2 {
 	justify-content: center;
 	align-items: center;
 	align-content: center; 
-	height: 100%;
-}
-
-#sobre-nosotros {
-	position: relative;
-	margin-bottom: 10%;
-	margin-top: 10%; 
-	z-index: -1; 
-}
-
-.fondo-derecha, .fondo-abajo {
-	position: absolute;
-	top: 0;
-	left: 0;
 }
 
 .fondo-derecha {
-	background: #6D48C6;
-	z-index: 1; /* Fondo trasero */
-	transform: translate(30px, 30px);/* Desplazamiento hacia la derecha y abajo */
 	width: 500px;
 	height: 700px;
-	border-radius: 45px;
-	border-style: solid; 
-	border-width: 2px;
-		
 }
 
 .fondo-abajo {
-	background: #FFD99D;
-	z-index: 2; /* Fondo delantero */
 	width: 500px;
 	height: 700px;
-	border-radius: 45px; 
-	border-style: solid;
-	border-width: 2px; 
 }
 
 .contenido {
@@ -566,14 +535,12 @@ h2 {
 	padding-left: 1px;
 	padding-right: 5px;
 	width: 430px;
-	font-size: 20px;
 }
 
 .negrita {
 	padding-left: 1px;
 	padding-right: 5px;
 	width: 430px;
-	font-size: 20px;
 }
 	
 /*Formulario*/
