@@ -460,12 +460,11 @@ form {
 	
 	nav{
 	display: flex;
-	text-align:end;
 	flex-direction: column; 
 	align-items: center;
 	justify-content: flex-end;
-	margin-right: 35px; 
-	margin-left: 15px; 
+	margin-right: 100px; 
+	margin-left: 500px; 
 }
 	
 	nav a {  
