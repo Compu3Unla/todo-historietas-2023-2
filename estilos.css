@@ -514,6 +514,7 @@ h2 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	align-content: center; 
 	height: 100%;
 }
 
@@ -534,8 +535,8 @@ h2 {
 	background: #6D48C6;
 	z-index: 1; /* Fondo trasero */
 	transform: translate(30px, 30px);/* Desplazamiento hacia la derecha y abajo */
-	width: 700px;
-	height: 900px;
+	width: 500px;
+	height: 700px;
 	border-radius: 45px;
 	border-style: solid; 
 	border-width: 2px;
@@ -545,8 +546,8 @@ h2 {
 .fondo-abajo {
 	background: #FFD99D;
 	z-index: 2; /* Fondo delantero */
-	width: 700px;
-	height: 900px;
+	width: 500px;
+	height: 700px;
 	border-radius: 45px; 
 	border-style: solid;
 	border-width: 2px; 
