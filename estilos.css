@@ -322,7 +322,17 @@ form {
 }
 
 /*Info personajes*/
-.mafalda{
+.flexbox{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: flex-end;
+}
+
+.mafalda-info, .clemente-info, .paturuzu-info, .eternauta-info, .pereyra-info, .hijitus-info {
 	position: relative;
 	margin-bottom: 10%;
 	margin-top: 10%; 
@@ -335,7 +345,7 @@ form {
 	left: 0;
 }
 
-.fondo-derecha-pers {
+.fondo-derecha-pers{
 	background: black;
 	z-index: 1; /* Fondo trasero */
 	transform: translate(30px, 30px);/* Desplazamiento hacia la derecha y abajo */
