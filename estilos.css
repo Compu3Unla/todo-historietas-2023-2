@@ -332,6 +332,10 @@ form {
 	align-content: flex-end;
 }
 
+.mafalda-pers, .clemente-pers, .paturuzu-pers, .eternauta-pers, .pereyra-pers, .hijitus-pers{
+	display: flex;
+}
+
 .mafalda-info, .clemente-info, .paturuzu-info, .eternauta-info, .pereyra-info, .hijitus-info {
 	position: relative;
 	margin-bottom: 10%;
@@ -349,7 +353,7 @@ form {
 	background: black;
 	z-index: 1; /* Fondo trasero */
 	transform: translate(30px, 30px);/* Desplazamiento hacia la derecha y abajo */
-	width: 900px;
+	width: 800px;
 	height: 500px;
 	border-radius: 45px;
 	border-style: solid; 
@@ -359,7 +363,7 @@ form {
 .fondo-abajo-pers {
 	background: #FFD99D;
 	z-index: 2; /* Fondo delantero */
-	width: 900px;
+	width: 800px;
 	height: 500px;
 	border-radius: 45px; 
 	border-style: solid;
