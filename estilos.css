@@ -502,9 +502,8 @@ form {
 	height: 700px; 
 	}
 	
+/* media sobre nosotros */
 	
-	/*sobre nosotros media*/
-
 h2 {
 	margin-left: 1%; 
 }
@@ -543,7 +542,7 @@ h2 {
 	width: 430px;
 }
 	
-/*Formulario*/
+/* media formulario*/
 
 #formulario{
 	display: flex;
