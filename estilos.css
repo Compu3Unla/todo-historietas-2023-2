@@ -558,27 +558,21 @@ h2 {
 }
 
 .contenido {
-	margin-top: 10px; 
+	margin-top: 7px; 
 	margin-left: 30px; 
-	text-align: center;
-	color: #fff;
-	padding: 20px;
-	border-radius: 5px;
-	position: relative;
-	z-index: 3; /* Contenido delante de los fondos */
 }
 
 .texto-sn {
-	padding-left: 3px;
-	padding-right: 10px;
-	width: 450px;
+	padding-left: 1px;
+	padding-right: 5px;
+	width: 430px;
 	font-size: 20px;
 }
 
 .negrita {
-	padding-left: 3px;
-	padding-right: 10px;
-	width: 450px;
+	padding-left: 1px;
+	padding-right: 5px;
+	width: 430px;
 	font-size: 20px;
 }
 	
