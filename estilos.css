@@ -443,7 +443,6 @@ form {
 	
 	nav{
 	display: flex;
-	text-align:end;
 	flex-direction: column; 
 	align-items: center;
 	justify-content: flex-end;
