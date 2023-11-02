@@ -332,6 +332,10 @@ form {
 	align-content: flex-end;
 }
 
+.mafalda-pers, .clemente-pers, .paturuzu-pers, .eternauta-pers, .pereyra-pers, .hijitus-pers{
+	display: flex;
+}
+
 .mafalda-info, .clemente-info, .paturuzu-info, .eternauta-info, .pereyra-info, .hijitus-info {
 	position: relative;
 	margin-bottom: 10%;
@@ -349,7 +353,7 @@ form {
 	background: black;
 	z-index: 1; /* Fondo trasero */
 	transform: translate(30px, 30px);/* Desplazamiento hacia la derecha y abajo */
-	width: 900px;
+	width: 800px;
 	height: 500px;
 	border-radius: 45px;
 	border-style: solid; 
@@ -359,7 +363,7 @@ form {
 .fondo-abajo-pers {
 	background: #FFD99D;
 	z-index: 2; /* Fondo delantero */
-	width: 900px;
+	width: 800px;
 	height: 500px;
 	border-radius: 45px; 
 	border-style: solid;
@@ -455,7 +459,7 @@ form {
 @media screen and (max-width:600px) {
 	
 	header {
-	height: 300px;
+	height: 290px;
     }
 	
 	nav{
@@ -463,16 +467,35 @@ form {
 	flex-direction: column; 
 	align-items: center;
 	justify-content: flex-end;
-	margin-right: 100px; 
-	margin-left: 500px; 
-}
+	margin-right: 30px; 
+	margin-left: 200px; 
+	}
 	
-	nav a {  
-	padding: 20px; 
-	margin: 12px; 
-	border-radius: 25px; 
-	width: 130px; 
-}
+	nav a { 
+	font-size: 20px; 
+	padding: 15px; 
+	border-radius: 45px; 
+	width: 150px; 
+	}
+	
+	footer {
+	width: 100%;
+	height: 100px;
+	margin-bottom: 0%; 
+	display: flex; 
+	flex-direction: column; 
+	justify-content: center;
+	align-items: center;
+    }
+	
+	footer p {
+	margin-top: 15px; 
+	}
+	
+	.redes-sociales {
+	margin-top: 3px; 
+	justify-content: center; 
+	}
 	
 }
 	
