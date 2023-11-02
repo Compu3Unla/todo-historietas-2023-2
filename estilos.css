@@ -362,10 +362,10 @@ form {
 	color: black;
 }
 /* Novedades */
-video{
+.video{
 	display: flex;
-	align: center;
-	flex-direction: column;
+	flex-direction: row;
+	justify-content: flex-start;
 	align-items: center;
 	padding-bottom: 10px;
 }	
