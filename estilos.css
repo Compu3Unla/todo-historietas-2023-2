@@ -285,6 +285,12 @@ form {
 	border-width: 0.5%; 
 }
 
+.label-mensaje {
+	font-family: "Barlow Medium";
+	font-size: 15px; 
+	color: black; 
+}
+
 .espacio-mensaje {
 	font-family: "Barlow Medium";
 	font-size: 23px;
