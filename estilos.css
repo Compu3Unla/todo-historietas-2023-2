@@ -444,11 +444,18 @@ form {
 	nav{
 	display: flex;
 	text-align:end;
-	flex-direction: row;
+	flex-direction: column; 
 	align-items: center;
 	justify-content: flex-end;
 	margin-right: 35px; 
 	margin-left: 15px; 
+}
+	
+	nav a {  
+	padding: 20px; 
+	margin: 12px; 
+	border-radius: 25px; 
+	width: 130px; 
 }
 	
 }
