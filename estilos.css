@@ -8,7 +8,7 @@
 
 /*index*/
 .fondo{
-	background-image: url("img/fondo_index.jpg");  	
+	background-image: url("img/fondo_index.jpg");  
 }
 
 header {
@@ -39,7 +39,7 @@ nav{
 	align-items: center;
 	justify-content: flex-end;
 	margin-right: 35px; 
-	margin-left: 550px; 
+	margin-left: 530px; 
 }
 
 nav a:hover {
@@ -71,72 +71,59 @@ footer{
 }
 
 /*galeria*/
-.galeria{
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+
+.galeria {
+    display: flex;
+    flex-direction: column;
 }
 
-.galeria ul, li {
-	padding: 0;
-	margin: 5px;
-	list-style: none;
-	flex-direction: column;
-	justify-content: center
+.slider {
+    display: flex;
+    overflow: scroll;
+    position: relative;
+    max-width: 100%;
+    transition: 0.5s;
 }
 
-ul.slider{
-	width: 900px;
-	height: 600px;
+.imagen {
+    flex: 0 0 100%;
+    max-width: 100%;
+    transition: 0.5s;
 }
 
-ul.slider li {
-	left: 0px;
-	top: 0px;
-	opacity: 0;
-	width: inherit;
-	height: inherit;
-	transition: opacity .5s;
-
+input[type="radio"] {
+    display: none;
 }
 
-ul.slider li img{
-	width: 100%;
-	height: 600px;
-	object-fit: cover;
+input[type="radio"]:checked ~ .slider .imagen {
+    transform: translateX(-100%);
 }
 
-ul.slider li:first-child {
-	opacity: 1;
+.menu {
+    display: flex;
 }
 
-ul.slider li:target {
-	opacity: 1;
+label {
+    flex: 0 0 16.666%;
+    cursor: pointer;
+    background-color: #ccc;
 }
 
-.menu{
-	text-align: center;
-	margin: 0px;
+label:hover {
+    background-color: #ddd;
 }
 
-.menu li{
-	display: inline-block;
-	text-align: center;
+a {
+    display: block;
+    text-align: center;
 }
 
-.menu li a{
-	display: inline-block;
-	color:#9FCCED;
-	text-decoration: none;
-	background-color:#060606;
-	padding:10 px;
-	width: 20px;
-	height:20px;
-	font-size: 12px;
-	border-radius: 100%;
-	margin-bottom: 10px;
+img {
+    max-width: 100%;
+    height: auto;
 }
+
+
 /*carrusel*/
 .carrusel {
 	aspect-radio:10/16;
@@ -263,6 +250,10 @@ footer p {
 	flex-direction: row;
 }
 
+.img-formulario {
+	margin-left: 110px; 
+}
+
 form {
 	display: flex;
 	flex-direction: column; 
@@ -276,30 +267,37 @@ form {
 	font-family: "Barlow Medium";
 	font-size: 23px; 
 	background-color:#9FCCED;
-	border-radius: 45px; 
+	border-radius: 40px; 
 	padding: 2%; 
 	margin: 1%;  
-	width: 25%;
+	width: 40%;
 	height: 3px; 
 	border-style: solid;
 	border-width: 0.5%; 
+}
+
+.label-mensaje {
+	font-family: "Barlow Medium";
+	font-size: 18px; 
+	color: black; 
+	margin-top: 10px; 
 }
 
 .espacio-mensaje {
 	font-family: "Barlow Medium";
 	font-size: 23px;
 	background-color:#9FCCED;
-	border-radius: 45px; 
+	border-radius: 40px; 
 	padding: 2%; 
 	margin: 1%;
-	width: 25%;
+	width: 40%;
 	height: 60px;
 	border-style: solid;
 	border-width: 0.5%; 
 }
 
 .boton-enviar {
-	width: 10%; 
+	width: 13%; 
 	font-family: "Barlow Medium";
 	font-size: 23px;
 	background-color:#9FCCED;
@@ -338,8 +336,8 @@ form {
 
 .mafalda-info, .clemente-info, .paturuzu-info, .eternauta-info, .pereyra-info, .hijitus-info {
 	position: relative;
-	margin-bottom: 10%;
-	margin-top: 10%; 
+	margin-top: 5%;
+	margin-bottom: 10%; 
 	z-index: -1; 
 }
 
@@ -454,9 +452,10 @@ form {
 	padding: 10px;
 }
 
-/* media index */
 
 @media screen and (max-width:600px) {
+	
+	/* media index */
 	
 	header {
 	height: 290px;
@@ -502,9 +501,8 @@ form {
 	height: 700px; 
 	}
 	
+/* media sobre nosotros */
 	
-	/*sobre nosotros media*/
-
 h2 {
 	margin-left: 1%; 
 }
@@ -543,12 +541,16 @@ h2 {
 	width: 430px;
 }
 	
-/*Formulario*/
+/* media formulario*/
 
 #formulario{
 	display: flex;
 	flex-direction: column; 
 	align-items: center; 
+}
+	
+.img-formulario {
+	margin-left: 0px; 
 }
 
 form {
@@ -564,6 +566,20 @@ form {
 .boton-enviar {
 	font-size: 30px;
 }
+	
+	/* media novedades */
+	
+	.flex-novedades {
+		display: flex; 
+		flex-direction: column; 
+		justify-content: center;  
+		align-items: center; 
+	}
+	
+	.novedades {
+		display: flex; 
+		flex-direction: column; 
+	}
 
 }
 	
