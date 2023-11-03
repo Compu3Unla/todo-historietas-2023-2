@@ -233,7 +233,7 @@ h2 {
 	justify-content: space-between;
 }
 
-footer ul a {
+.wsp, .instagram, .facebook, .youtube {
 	padding: 10%; 
 }
 
