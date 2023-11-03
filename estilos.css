@@ -79,7 +79,7 @@ footer{
 
 .slider {
     display: flex;
-    overflow: hidden;
+    overflow: scroll;
     position: relative;
     max-width: 100%;
     transition: 0.5s;
