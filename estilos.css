@@ -113,6 +113,11 @@ label:hover {
     background-color: #ddd;
 }
 
+.personajes a {
+    display: block;
+    text-align: center;
+}
+
 img {
     max-width: 100%;
     height: auto;
