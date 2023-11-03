@@ -47,7 +47,7 @@ nav a:hover {
 	color: #8CCCF1;
 }
 
-nav a {  
+.boton-categorias, .boton-sobrenosotros, .boton-novedades, .boton-contacto {  
 	color: #6D48C6;
 	background-color: #8CCCF1;
 	font-family: "Barlow Black";
