@@ -113,7 +113,7 @@ label:hover {
     background-color: #ddd;
 }
 
-a {
+.personajes a {
     display: block;
     text-align: center;
 }
