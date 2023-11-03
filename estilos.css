@@ -113,7 +113,7 @@ label:hover {
     background-color: #ddd;
 }
 
-.personajes a {
+.personajes {
     display: block;
     text-align: center;
 }
@@ -230,11 +230,13 @@ h2 {
 
 .redes-sociales {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around; 
+	width: 15%; 
 }
 
-footer ul a {
-	padding: 10%; 
+footer ul a  {
+	padding: 1%; 
+
 }
 
 footer p {
