@@ -475,6 +475,7 @@ img:hover {
 	
 	header {
 	height: 290px;
+	padding: 10px 0;
     }
 	
 	nav{
@@ -597,5 +598,31 @@ form {
 		flex-direction: column; 
 	}
 
+	.columna1, .columna2{
+		width: 100%;
+		align-items: center;
+	}
+	
+	.video {
+	text-align: center;
+	margin: 10px 0;
+  }
+
+	.contenedor {
+	width: 100%;
+	align-items: center;
+  }
+	.texto-superpuesto {
+	width: 90%;
+	margin: 10px auto;
+  }
+
+	.bold {
+	font-size: 18px;
+  }
+
+	img:hover {
+	transform: scale(1.1);
+  }
 }
 	
