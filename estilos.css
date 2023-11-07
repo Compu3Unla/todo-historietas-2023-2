@@ -639,7 +639,7 @@ form {
 .mafalda-info {
     margin-top: 20px;
     text-align: center;
-	z-index: -1;
+	z-index: 1;
   }
 
   .fondo-derecha-pers,
