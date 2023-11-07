@@ -10,7 +10,7 @@
 
 /*index*/
 .fondo{
-	background-image: url("img/fondo_index.jpg");  
+	background-color: #FFC567;  
 }
 
 header {
@@ -70,6 +70,7 @@ footer{
 	display: flex; 
 	justify-content: center;
 	align-items: center; 
+	font-size: 20px;
 }
 
 /*galeria*/
