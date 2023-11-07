@@ -327,48 +327,11 @@ form {
 }
 
 /*Info personajes*/
+
 .contenedor-info-personaje {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-}
-
-.mafalda-pers, .clemente-pers, .paturuzu-pers, .eternauta-pers, .pereyra-pers, .hijitus-pers{
-	display: flex;
-}
-
-.mafalda-info, .clemente-info, .paturuzu-info, .eternauta-info, .pereyra-info, .hijitus-info {
-	position: relative;
-	margin-top: 5%;
-	margin-bottom: 10%; 
-	z-index: -1; 
-}
-
-.fondo-derecha-pers, .fondo-abajo-pers {
-	position: absolute;
-	top: 0; 
-	left: 0;
-}
-
-.fondo-derecha-pers{
-	background: black;
-	z-index: 1; /* Fondo trasero */
-	transform: translate(30px, 30px);/* Desplazamiento hacia la derecha y abajo */
-	width: 800px;
-	height: 500px;
-	border-radius: 45px;
-	border-style: solid; 
-	border-width: 2px;
-}
-
-.fondo-abajo-pers {
-	background: #FFD99D;
-	z-index: 2; /* Fondo delantero */
-	width: 800px;
-	height: 500px;
-	border-radius: 45px; 
-	border-style: solid;
-	border-width: 2px; 
 }
 
 .contenido-pers {
