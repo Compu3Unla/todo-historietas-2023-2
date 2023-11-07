@@ -326,33 +326,28 @@ form {
 	transition: background-color 0.3s;
 }
 
-/*Info personajes*/
+/* Info personajes */
 
 .contenedor-info-personaje {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	align-content: center; 
+	margin-bottom: 70px; 
 }
 
-.contenido-pers {
-	text-align: center;
-	color: #fff;
-	padding: 40px;
-	border-radius: 5px;
-	position: relative;
-	z-index: 3; /* Contenido delante de los fondos */
-}
 
-.contenido-pers p {
-	text-align:left;
+.texto-personaje {
+	text-align: left;
 	font-family: 'Barlow Medium', sans-serif;  
-	padding-left: 50px;
-	padding-right: 50px;
 	width: 600px;
-	text-indent: 30px;
-	line-height: 30px;
-	font-size: 20px;
+	line-height: 25px;
+	font-size: 18px;
 	color: black;
+	background-color: #F9CA7F;
+	border-radius: 45px; 
+	border-style: solid;
+	border-width: 2px; 
 }
 	
 /* Novedades */
