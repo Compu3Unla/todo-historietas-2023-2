@@ -483,7 +483,7 @@ img:hover {
     flex-direction: column; /* Cambia la dirección del flexbox para desplegar hacia abajo */
   }
 
-  .menu-toggle:checked + nav {
+  .menu-toggle:checked nav {
     display: flex; /* Muestra el menú cuando el checkbox está marcado */
   }
 	
