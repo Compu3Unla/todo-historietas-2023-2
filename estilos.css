@@ -478,6 +478,11 @@ img:hover {
 	padding: 10px 0;
     }
 	
+	.logo{
+		width: 100%;
+		text-align: center;
+	}
+	
 	nav{
 	display: flex;
 	flex-direction: column; 
@@ -603,7 +608,13 @@ form {
 		align-items: center;
 	}
 	
+	.columna2{
+		padding: 0
+	}
+	
 	.video {
+	display: flex;
+	flex-direction: column;
 	text-align: center;
 	margin: 10px 0;
   }
