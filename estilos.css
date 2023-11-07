@@ -242,7 +242,6 @@ footer p {
 
 #formulario{
 	display: flex;
-	flex-direction: row;
 }
 
 .img-formulario {
@@ -254,8 +253,13 @@ form {
 	flex-direction: column; 
 	align-items: center; 
 	justify-content: center;
-	width: 100%;
-	height: 100%;
+	width: 450px; 
+	height: 400px; 
+	background-color: #6D48C6; 
+	border-radius: 40px; 
+	margin-left: 20px; 
+	border-style: solid; 
+	border-width: 2px;
 }
 
 .input-nombre, .input-correo, .input-asunto{
@@ -263,41 +267,41 @@ form {
 	font-size: 23px; 
 	background-color:#9FCCED;
 	border-radius: 40px; 
-	padding: 2%; 
+	padding: 4%; 
 	margin: 1%;  
-	width: 40%;
+	width: 70%;
 	height: 3px; 
 	border-style: solid;
 	border-width: 0.5%; 
+	border-color: black; 
 }
 
 .label-mensaje {
 	font-family: 'Barlow Medium', sans-serif;
-	font-size: 18px; 
-	color: black; 
-	margin-top: 10px; 
+	font-size: 20px; 
+	color: white; 
+	margin-top: 14px; 
 }
 
 .espacio-mensaje {
-	font-family: 'Barlow Medium', sans-serif;
-	font-size: 23px;
 	background-color:#9FCCED;
 	border-radius: 40px; 
 	padding: 2%; 
 	margin: 1%;
-	width: 40%;
-	height: 60px;
+	width: 70%;
+	height: 50px;
 	border-style: solid;
 	border-width: 0.5%; 
+	border-color: black; 
 }
 
 .boton-enviar {
-	width: 13%; 
+	width: 25%; 
 	font-family: 'Barlow Medium', sans-serif;
 	font-size: 23px;
 	background-color:#9FCCED;
 	border-radius: 45px; 
-	padding: 2%; 
+	padding: 4%; 
 	margin: 1%;
 	height: 3px; 
 	display: flex;
@@ -309,9 +313,8 @@ form {
 }
 
 .boton-enviar:hover {
-	background-color: #6D48C6; 
+	background-color:  #F9CA7F;
 	transition: background-color 0.3s;
-	color: white; 
 }
 
 /*Info personajes*/
