@@ -389,10 +389,11 @@ form {
 
 .video{
 	display: flex;
-	flex-direction: row;
 	justify-content: center; 
-	align-items: center;
+	align-content: center; 
 	margin-bottom: 7%; 
+	background-color: #6D48C6; 
+	border-radius: 40px; 
 }	
 
 .novedades{
