@@ -45,6 +45,15 @@ nav{
 nav a:hover {
 	background-color: #6D48C6;
 	color: #8CCCF1;
+	border-style: solid; 
+	border-color: #8CCCF1;
+}
+
+nav a:active {
+	background-color: #F9CA7F;
+	color: #6D48C6;
+	border-style: solid;  
+	border-color: #6D48C6; 
 }
 
 nav a {  
