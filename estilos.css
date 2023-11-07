@@ -401,7 +401,6 @@ form {
 	justify-content: center; 
 	align-items: center;
 	margin-bottom: 7%; 
-	margin-top: 7%; 
 }	
 
 .novedades{
@@ -475,7 +474,13 @@ img:hover {
 	
 	header {
 	height: 290px;
+	padding: 10px 0;
     }
+	
+	.logo{
+		width: 100%;
+		text-align: center;
+	}
 	
 	nav{
 	display: flex;
@@ -597,5 +602,37 @@ form {
 		flex-direction: column; 
 	}
 
+	.columna1, .columna2{
+		width: 100%;
+		align-items: center;
+	}
+	
+	.columna2{
+		padding: 0
+	}
+	
+	.video {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin: 10px 0;
+  }
+
+	.contenedor {
+	width: 100%;
+	align-items: center;
+  }
+	.texto-superpuesto {
+	width: 90%;
+	margin: 10px auto;
+  }
+
+	.bold {
+	font-size: 18px;
+  }
+
+	img:hover {
+	transform: scale(1.1);
+  }
 }
 	
