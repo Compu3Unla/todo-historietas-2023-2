@@ -387,12 +387,26 @@ form {
 	
 /* Novedades */
 
+.flex-novedades {
+	display: flex;
+	flex-direction: column; 
+	align-items: center; 
+}
+
+.video-novedades {
+	display: flex; 
+	align-content: center; 
+	justify-content: center; 
+	margin-bottom: 7%; 
+	background-color: #6D48C6; 
+	border-radius: 35px; 
+	width: 500px; 
+}
+
 .video{
 	display: flex;
-	flex-direction: row;
 	justify-content: center; 
-	align-items: center;
-	margin-bottom: 7%; 
+	align-content: center; 
 }	
 
 .novedades{
@@ -431,7 +445,25 @@ form {
 	border-width: 2px;
 	border-radius: 35px;
 	background-color: #F9CA7F;
-	width: 350px;
+	width: 320px;
+	height: 100px;
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: black;
+	font-family: 'Barlow Medium', sans-serif;
+	font-size: 15px;
+}
+
+.texto-superpuesto-video {
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 35px;
+	background-color: #F9CA7F;
+	width: 200px;
 	height: 100px;
 	display: flex;
 	flex: 1;
@@ -445,7 +477,7 @@ form {
 }
 
 .bold{
-	font-family: "Barlow Black";
+	font-family: 'Barlow Black', sans-serif; 
 	font-size: 20px;
 }
 
@@ -620,4 +652,42 @@ form {
 	transform: scale(1.1);
   }
 }
-	
+
+/*media de info de personajes*/
+
+ main .mafalda-pers, main .clemente-pers, main .paturuzu-pers, main .eternauta-pers, main .pereyra-pers, main .hijitus-pers{
+    flex-direction: column;
+  }
+
+  .mafalda-pers img, .clemente-pers img, .paturuzu-pers img, .eternauta-pers img, .pereyra-pers img, .hijitus-pers img{
+    width: 100%;
+  }
+
+  .flexbox {
+    align-items: center;
+  }
+
+.mafalda-info, .clemente-info, .paturuzu-info, .eternauta-info, .pereyra-info, .hijitus-info {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .fondo-derecha-pers,
+  .fondo-abajo-pers {
+    width: 450px;
+	height: 600px;
+	padding-bottom: 30px;
+  }
+
+  .contenido-pers {
+    padding: 20px;
+  }
+
+.contenido-pers p {
+    text-align: center;
+    padding: 5px;
+    width: 400px;
+    text-indent: 0;
+    font-size: 18px;
+    line-height: 26px;
+  }
