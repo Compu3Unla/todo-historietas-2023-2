@@ -652,7 +652,6 @@ form {
 .fondo-derecha-pers{
 	background: black;
 	z-index: 1; /* Fondo trasero */
-	transform: translate(30px, 30px);/* Desplazamiento hacia la derecha y abajo */
 	width: 400px;
 	height: 250px;
 }
@@ -672,7 +671,7 @@ form {
 .contenido-pers p {
     text-align: center;
     padding: 0;
-    width: 100%;
+    width: 400px;
     text-indent: 0;
     font-size: 18px;
     line-height: 26px;
