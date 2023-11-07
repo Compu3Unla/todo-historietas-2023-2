@@ -651,14 +651,14 @@ form {
 
 .fondo-derecha-pers{
 	background: black;
-	z-index: 1; /* Fondo trasero */
+	z-index: -1; /* Fondo trasero */
 	width: 400px;
 	height: 250px;
 }
 
 .fondo-abajo-pers {
 	background: #FFD99D;
-	z-index: 2; /* Fondo delantero */
+	z-index: -2; /* Fondo delantero */
 	width: 400px;
 	height: 250px;
 }
