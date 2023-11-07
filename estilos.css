@@ -106,15 +106,6 @@ input[type="radio"]:checked ~ .slider .imagen {
 	display: flex;
 }
 
-label {
-	flex: 0 0 16.666%;
-	cursor: pointer;
-}
-
-label:hover {
-	background-color: #ddd;
-}
-
 .personajes {
 	display: block;
 	text-align: center;
@@ -416,7 +407,6 @@ form {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	width: 616px;
 }
 
 .columna2{
@@ -424,7 +414,6 @@ form {
 	flex-direction: column;
 	align-items: flex-end;
 	justify-content: flex-start;
-	padding: 20px;
 }
 
 .mafalda, .hijitus, .clemente, .pereyra {
@@ -462,14 +451,21 @@ form {
 	font-size: 20px;
 }
 
-img{
+.logo img{
 	transition: transform 0.3s;
 }
 
-img:hover {
-	transform: scale(1.2);
+.logo img:hover {
+	transform: scale(1.1);
 }
 
+.animacion, .img-formulario img{
+	transition: transform 0.3s;
+}
+
+.animacion, .img-formulario img:hover {
+	transform: scale(1.2);
+}
 
 @media screen and (max-width:600px) {
 	
@@ -480,10 +476,6 @@ img:hover {
 	padding: 10px 0;
     }
 	
-	.logo{
-		width: 100%;
-		text-align: center;
-	}
 	
 	nav{
 	display: flex;
