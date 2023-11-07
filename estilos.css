@@ -387,13 +387,20 @@ form {
 	
 /* Novedades */
 
+.video-novedades {
+	display: flex; 
+	align-content: center; 
+	justify-content: center; 
+	margin-bottom: 7%; 
+	background-color: #6D48C6; 
+	border-radius: 35px; 
+	width: 500px; 
+}
+
 .video{
 	display: flex;
 	justify-content: center; 
 	align-content: center; 
-	margin-bottom: 7%; 
-	background-color: #6D48C6; 
-	border-radius: 40px; 
 }	
 
 .novedades{
