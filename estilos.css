@@ -644,6 +644,7 @@ form {
   .fondo-abajo-pers {
     width: 450px;
 	height: 600px;
+	padding-bottom: 30px;
   }
 
   .contenido-pers {
