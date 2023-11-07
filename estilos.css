@@ -463,7 +463,7 @@ form {
 }
 
 .bold{
-	font-family: "Barlow Black";
+	font-family: 'Barlow Black', sans-serif; 
 	font-size: 20px;
 }
 
