@@ -641,66 +641,24 @@ form {
   }
 
 /*media de info de personajes*/
-
-  .flex-novedades {
+  .contenedor-info-personaje {
     display: flex;
     flex-direction: column;
   }
 
-  .novedades {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .columna1,
-  .columna2 {
-    width: 100%;
-  }
-
-  .mafalda,
-  .hijitus,
-  .clemente,
-  .pereyra {
-    width: 100%;
-    margin-bottom: 20px;
-  }
-
-  .contenedor {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .texto-superpuesto {
-    width: 100%;
-    padding: 10px;
-    text-align: center;
-    font-size: 16px;
-  }
-
-  .bold {
-    font-size: 18px;
-  }
-
-  .video-novedades {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .video {
-    width: 100%;
-  }
-
-  .texto-superpuesto-video {
-    width: 100%;
-    padding: 10px;
-    text-align: center;
-    font-size: 16px;
-  }
-
-  .video-mafalda {
+  .contenedor-info-personaje img {
     width: 100%;
     height: auto;
+  }
+
+  .columna-info-personaje img {
+    width: 100%;
+    height: auto;
+  }
+
+  .texto-personaje {
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
   }
 }
