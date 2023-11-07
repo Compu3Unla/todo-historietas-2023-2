@@ -467,35 +467,38 @@ img:hover {
 	transform: scale(1.2);
 }
 
-@media screen and (max-width:600px) {
-	
+@media screen and (max-width:600px) 
+{
 	/* media index */
-	
-	header {
-	height: 290px;
-	padding: 10px 0;
-    }
-	
-	.logo {
-    width: 100%; 
-    text-align: start;
-	}
-	
-	nav{
-	display: flex;
-	flex-direction: column; 
-	align-items: center;
-	justify-content: flex-end;
-	margin-right: 30px; 
-	margin-left: 200px; 
-	}
-	
-	nav a { 
-	font-size: 20px; 
-	padding: 15px; 
-	border-radius: 45px; 
-	width: 150px; 
-	}
+  .menu-icon {
+    display: block;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  /* Oculta el input */
+  #menu-toggle {
+    display: none;
+  }
+
+  /* Estilos del menú cuando la casilla de verificación está marcada */
+  #menu-toggle:checked + header nav {
+    display: block;
+  }
+
+  header nav {
+    display: none;
+  }
+
+  header {
+    position: relative;
+  }
+
+  header nav a {
+    display: block;
+    padding: 10px;
+  }
+
 	
 	footer {
 	width: 100%;
@@ -659,6 +662,5 @@ form {
   .texto-personaje {
     font-size: 16px;
     padding: 10px;
-    text-align: center;
-  }
+    text-align: center;}
 }
