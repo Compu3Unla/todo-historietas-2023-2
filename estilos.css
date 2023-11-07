@@ -1,6 +1,8 @@
 @charset "utf-8";
 /* CSS Document */
 
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 *{
 	margin:0px;
 	padding: 0px;
@@ -50,7 +52,7 @@ nav a:hover {
 nav a {  
 	color: #6D48C6;
 	background-color: #8CCCF1;
-	font-family: "Barlow Black";
+	font-family: "Barlow Black", sans-serif;
 	text-align: center; 
 	padding: 10px; 
 	margin: 6px; 
@@ -145,7 +147,7 @@ img {
 
 h2 {
 	color:#6D48C6;
-	font-family: "Barlow Black"; 
+	font-family: "Barlow Black", sans-serif; 
 	font-size: 45px;
 	text-align: left; 
 	margin-left: 6.5%; 
@@ -207,7 +209,7 @@ h2 {
 
 .texto-sn {
 	text-align:left;
-	font-family: "Barlow"; 
+	font-family: "Barlow", sans-serif; 
 	padding-left: 50px;
 	padding-right: 50px;
 	width: 700px;
@@ -218,7 +220,7 @@ h2 {
 
 .negrita {
 	text-align:left;
-	font-family: 'Barlow SemiBold'; 
+	font-family: "Barlow SemiBold", sans-serif; 
 	padding-left: 50px;
 	padding-right: 50px;
 	width: 700px;
@@ -239,7 +241,7 @@ footer ul a  {
 }
 
 footer p {
-	font-family: "Barlow Medium";
+	font-family: "Barlow Medium", sans-serif;
 	color:#9FCCED;
 	margin-right: 4%; 
 }
@@ -265,7 +267,7 @@ form {
 }
 
 .input-nombre, .input-correo, .input-asunto{
-	font-family: "Barlow Medium";
+	font-family: "Barlow Medium", sans-serif;
 	font-size: 23px; 
 	background-color:#9FCCED;
 	border-radius: 40px; 
@@ -278,14 +280,14 @@ form {
 }
 
 .label-mensaje {
-	font-family: "Barlow Medium";
+	font-family: "Barlow Medium", sans-serif;
 	font-size: 18px; 
 	color: black; 
 	margin-top: 10px; 
 }
 
 .espacio-mensaje {
-	font-family: "Barlow Medium";
+	font-family: "Barlow Medium", sans-serif;
 	font-size: 23px;
 	background-color:#9FCCED;
 	border-radius: 40px; 
@@ -299,7 +301,7 @@ form {
 
 .boton-enviar {
 	width: 13%; 
-	font-family: "Barlow Medium";
+	font-family: "Barlow Medium", sans-serif;
 	font-size: 23px;
 	background-color:#9FCCED;
 	border-radius: 45px; 
@@ -380,7 +382,7 @@ form {
 
 .contenido-pers p {
 	text-align:left;
-	font-family: "Barlow Medium";  
+	font-family: "Barlow Medium", sans-serif;  
 	padding-left: 50px;
 	padding-right: 50px;
 	width: 600px;
@@ -448,7 +450,7 @@ form {
 	align-items: center;
 	text-align: center;
 	color: black;
-	font-family: 'Barlow Medium';
+	font-family: "Barlow Medium", sans-serif;
 	font-size: 15px;
 	padding: 10px;
 }
