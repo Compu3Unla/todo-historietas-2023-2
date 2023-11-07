@@ -648,9 +648,17 @@ form {
 	margin: 10px auto;
   }
 
+	.texto-superpuesto-video{
+		width: 350px;
+	}
+	
 	.bold {
 	font-size: 18px;
   }
+	
+	.video-novedades{
+		width: 500px;
+	}
 
 	img:hover {
 	transform: scale(1.1);
