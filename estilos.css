@@ -383,6 +383,10 @@ form {
 	align-content: center; 
 }	
 
+.video-mafalda{
+	padding-bottom: 20px;
+}
+
 .novedades{
 	display: flex;
 	flex-direction: row;
@@ -570,8 +574,6 @@ h2 {
 }
 
 form {
-	width: 1600px; 
-	height: 100%; 
 	margin-bottom: 30px; 
 }
 
@@ -639,40 +641,24 @@ form {
   }
 
 /*media de info de personajes*/
-
- main .mafalda-pers, main .clemente-pers, main .paturuzu-pers, main .eternauta-pers, main .pereyra-pers, main .hijitus-pers{
+  .contenedor-info-personaje {
+    display: flex;
     flex-direction: column;
   }
 
-  .mafalda-pers img, .clemente-pers img, .paturuzu-pers img, .eternauta-pers img, .pereyra-pers img, .hijitus-pers img{
-    width: 75%;
+  .contenedor-info-personaje img {
+    width: 100%;
+    height: auto;
   }
 
-  .flexbox {
-    align-items: center;
+  .columna-info-personaje img {
+    width: 100%;
+    height: auto;
   }
 
-.mafalda-info, .clemente-info, .paturuzu-info, .eternauta-info, .pereyra-info, .hijitus-info {
-    margin-top: 20px;
+  .texto-personaje {
+    font-size: 16px;
+    padding: 10px;
     text-align: center;
   }
-
-  .fondo-derecha-pers,
-  .fondo-abajo-pers {
-    width: 400px;
-	height: 600px;
-	padding-bottom: 30px;
-  }
-
-  .contenido-pers {
-    padding: 20px;
-  }
-
-.contenido-pers p {
-    text-align: center;
-    padding: 5px;
-    width: 400px;
-    text-indent: 0;
-    font-size: 18px;
-    line-height: 26px;}
 }
