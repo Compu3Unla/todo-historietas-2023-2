@@ -512,6 +512,10 @@ img:hover {
 	padding: 10px 0;
     }
 	
+	.logo {
+    width: 100%; 
+    text-align: start;
+	}
 	
 	nav{
 	display: flex;
@@ -665,7 +669,6 @@ form {
 	img:hover {
 	transform: scale(1.1);
   }
-}
 
 /*media de info de personajes*/
 
@@ -674,7 +677,7 @@ form {
   }
 
   .mafalda-pers img, .clemente-pers img, .paturuzu-pers img, .eternauta-pers img, .pereyra-pers img, .hijitus-pers img{
-    width: 100%;
+    width: 75%;
   }
 
   .flexbox {
@@ -688,7 +691,7 @@ form {
 
   .fondo-derecha-pers,
   .fondo-abajo-pers {
-    width: 450px;
+    width: 400px;
 	height: 600px;
 	padding-bottom: 30px;
   }
@@ -703,5 +706,5 @@ form {
     width: 400px;
     text-indent: 0;
     font-size: 18px;
-    line-height: 26px;
-  }
+    line-height: 26px;}
+}
