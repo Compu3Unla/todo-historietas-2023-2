@@ -10,7 +10,7 @@
 
 /*index*/
 .fondo{
-	background-color: #FFC567;  
+	background-color: #FFDCA5;  
 }
 
 header {
@@ -188,7 +188,7 @@ h2 {
 }
 
 .fondo-abajo {
-	background: #FFD99D;
+	background: #F9CA7F;
 	z-index: 2; /* Fondo delantero */
 	width: 900px;
 	height: 500px;
