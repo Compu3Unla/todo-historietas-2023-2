@@ -467,38 +467,33 @@ img:hover {
 	transform: scale(1.2);
 }
 
+/* Estilos generales para el menú hamburguesa */
+.menu-toggle {
+  display: none; /* Oculta el input */
+}
+
+.menu-icon {
+  display: none; /* Oculta el icono de hamburguesa por defecto */
+  cursor: pointer;
+  font-size: 24px;
+}
+
 @media screen and (max-width:600px) 
 {
-	/* media index */
-  .menu-icon {
-    display: block;
-    font-size: 24px;
-    cursor: pointer;
+.menu-icon {
+    display: block; /* Muestra el icono de hamburguesa en dispositivos móviles */
   }
 
-  /* Oculta el input */
-  #menu-toggle {
-    display: none;
+  nav {
+    display: none; /* Oculta el menú de navegación por defecto en dispositivos móviles */
   }
 
-  /* Estilos del menú cuando la casilla de verificación está marcada */
-  #menu-toggle:checked + header nav {
-    display: block;
+  
+ 
+/* Estilos para el menú desplegado */
+  input[type="checkbox"]:checked ~ nav {
+    display: block; /* Muestra el menú cuando el input está marcado */
   }
-
-  header nav {
-    display: none;
-  }
-
-  header {
-    position: relative;
-  }
-
-  header nav a {
-    display: block;
-    padding: 10px;
-  }
-
 	
 	footer {
 	width: 100%;
