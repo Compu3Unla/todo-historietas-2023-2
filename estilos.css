@@ -296,7 +296,7 @@ form {
 .boton-enviar {
 	width: 25%; 
 	font-family: 'Barlow Medium', sans-serif;
-	font-size: 23px;
+	font-size: 15px;
 	background-color:#9FCCED;
 	border-radius: 45px; 
 	padding: 4%; 
@@ -481,19 +481,11 @@ form {
 	font-size: 20px;
 }
 
-.logo img{
+img{
 	transition: transform 0.3s;
 }
 
-.logo img:hover {
-	transform: scale(1.1);
-}
-
-.animacion, .img-formulario img{
-	transition: transform 0.3s;
-}
-
-.animacion, .img-formulario img:hover {
+img:hover {
 	transform: scale(1.2);
 }
 
