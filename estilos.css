@@ -258,7 +258,7 @@ form {
 	border-width: 2px;
 }
 
-.input-nombre, .input-correo, .input-asunto{
+.input-nombre, .input-correo, .input-asunto {
 	font-family: 'Barlow Medium', sans-serif;
 	font-size: 23px; 
 	background-color:#9FCCED;
@@ -276,7 +276,8 @@ form {
 	font-family: 'Barlow Medium', sans-serif;
 	font-size: 20px; 
 	color: white; 
-	margin-top: 14px; 
+	margin-top: 12px; 
+	margin-bottom: 5px; 
 }
 
 .espacio-mensaje {
@@ -285,10 +286,11 @@ form {
 	padding: 2%; 
 	margin: 1%;
 	width: 70%;
-	height: 50px;
+	height: 70px;
 	border-style: solid;
 	border-width: 0.5%; 
 	border-color: black; 
+	margin-bottom: 12px;  
 }
 
 .boton-enviar {
