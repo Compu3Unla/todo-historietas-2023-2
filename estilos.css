@@ -480,19 +480,27 @@ img:hover {
 
 @media screen and (max-width:600px) 
 {
-.menu-icon {
-    display: block; /* Muestra el icono de hamburguesa en dispositivos móviles */
+.menu-toggle {
+    display: none; /* Oculta el checkbox de entrada */
+  }
+
+  .menu-icon {
+    font-size: 30px;
+    cursor: pointer;
   }
 
   nav {
-    display: none; /* Oculta el menú de navegación por defecto en dispositivos móviles */
+    display: none;
+    flex-direction: column; /* Cambia la dirección del flexbox para desplegar hacia abajo */
   }
 
-  
- 
-/* Estilos para el menú desplegado */
-  input[type="checkbox"]:checked ~ nav {
-    display: block; /* Muestra el menú cuando el input está marcado */
+  .menu-toggle:checked + nav {
+    display: flex; /* Muestra el menú cuando el checkbox está marcado */
+  }
+	
+	 nav a {
+    padding: 10px; /* Espaciado entre elementos del menú */
+    text-align: center;
   }
 	
 	footer {
