@@ -18,8 +18,7 @@ header {
 	height: 100px;
 	background-color: #FD5A46;
 	display: flex;
-	flex-direction: row;
-	justify-content: flex-end;
+	justify-content: space-between; 
 	align-items: center;
 	position: sticky;
 	top: 0%; 
@@ -31,7 +30,8 @@ img.logo {
 	height: 69px;
 	padding: 10px;
 	display: flex;
-	justify-content: flex-start
+	justify-content: flex-start; 
+	margin-left: 35px; 
 }
 
 nav{
@@ -39,7 +39,7 @@ nav{
 	align-items: center;
 	justify-content: flex-end;
 	margin-right: 35px; 
-	margin-left: 530px; 
+	
 }
 
 nav a:hover {
@@ -440,7 +440,6 @@ form {
 .contenedor{
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
 }
 
 .texto-superpuesto {
@@ -458,7 +457,7 @@ form {
 	text-align: center;
 	color: black;
 	font-family: 'Barlow Medium', sans-serif;
-	font-size: 15px;
+	font-size: 15px; 
 }
 
 .texto-superpuesto-video {
