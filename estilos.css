@@ -651,7 +651,6 @@ form {
 	img:hover {
 	transform: scale(1.1);
   }
-}
 
 /*media de info de personajes*/
 
@@ -689,5 +688,5 @@ form {
     width: 400px;
     text-indent: 0;
     font-size: 18px;
-    line-height: 26px;
-  }
+    line-height: 26px;}
+}
