@@ -327,14 +327,10 @@ form {
 }
 
 /*Info personajes*/
-.flexbox{
+.contenedor-info-personaje {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 100%;
-	flex-direction: column;
-	flex-wrap: wrap;
-	align-content: flex-end;
 }
 
 .mafalda-pers, .clemente-pers, .paturuzu-pers, .eternauta-pers, .pereyra-pers, .hijitus-pers{
