@@ -36,8 +36,6 @@ img.logo {
 
 nav{
 	display: flex;
-	text-align:end;
-	flex-direction: row;
 	align-items: center;
 	justify-content: flex-end;
 	margin-right: 35px; 
@@ -242,10 +240,8 @@ footer p {
 
 #formulario{
 	display: flex;
-}
-
-.img-formulario {
-	margin-left: 110px; 
+	margin-bottom: 5%; 
+	justify-content: center; 
 }
 
 form {
