@@ -449,19 +449,11 @@ form {
 	font-size: 20px;
 }
 
-img.logo {
+img {
 	transition: transform 0.3s;
 }
 
-img.logo :hover {
-	transform: scale(1.1);
-}
-
-img.animacion, img.img-formulario {
-	transition: transform 0.3s;
-}
-
-img.animacion, img .img-formulario :hover {
+img :hover {
 	transform: scale(1.2);
 }
 
