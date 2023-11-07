@@ -10,7 +10,7 @@
 
 /*index*/
 .fondo{
-	background-color: #FFC567;  
+	background-color: #FFDCA5;  
 }
 
 header {
@@ -148,7 +148,7 @@ img {
 
 h2 {
 	color:#6D48C6;
-	font-family: "Barlow Black", sans-serif; 
+	font-family: 'Barlow Black', sans-serif; 
 	font-size: 45px;
 	text-align: left; 
 	margin-left: 6.5%; 
@@ -188,7 +188,7 @@ h2 {
 }
 
 .fondo-abajo {
-	background: #FFD99D;
+	background: #F9CA7F;
 	z-index: 2; /* Fondo delantero */
 	width: 900px;
 	height: 500px;
@@ -210,7 +210,7 @@ h2 {
 
 .texto-sn {
 	text-align:left;
-	font-family: "Barlow", sans-serif; 
+	font-family: 'Barlow', sans-serif; 
 	padding-left: 50px;
 	padding-right: 50px;
 	width: 700px;
@@ -221,7 +221,7 @@ h2 {
 
 .negrita {
 	text-align:left;
-	font-family: "Barlow SemiBold", sans-serif; 
+	font-family: 'Barlow SemiBold', sans-serif; 
 	padding-left: 50px;
 	padding-right: 50px;
 	width: 700px;
@@ -242,7 +242,7 @@ footer ul a  {
 }
 
 footer p {
-	font-family: "Barlow Medium", sans-serif;
+	font-family: 'Barlow Medium', sans-serif;
 	color:#9FCCED;
 	margin-right: 4%; 
 }
@@ -268,7 +268,7 @@ form {
 }
 
 .input-nombre, .input-correo, .input-asunto{
-	font-family: "Barlow Medium", sans-serif;
+	font-family: 'Barlow Medium', sans-serif;
 	font-size: 23px; 
 	background-color:#9FCCED;
 	border-radius: 40px; 
@@ -281,14 +281,14 @@ form {
 }
 
 .label-mensaje {
-	font-family: "Barlow Medium", sans-serif;
+	font-family: 'Barlow Medium', sans-serif;
 	font-size: 18px; 
 	color: black; 
 	margin-top: 10px; 
 }
 
 .espacio-mensaje {
-	font-family: "Barlow Medium", sans-serif;
+	font-family: 'Barlow Medium', sans-serif;
 	font-size: 23px;
 	background-color:#9FCCED;
 	border-radius: 40px; 
@@ -302,7 +302,7 @@ form {
 
 .boton-enviar {
 	width: 13%; 
-	font-family: "Barlow Medium", sans-serif;
+	font-family: 'Barlow Medium', sans-serif;
 	font-size: 23px;
 	background-color:#9FCCED;
 	border-radius: 45px; 
@@ -383,7 +383,7 @@ form {
 
 .contenido-pers p {
 	text-align:left;
-	font-family: "Barlow Medium", sans-serif;  
+	font-family: 'Barlow Medium', sans-serif;  
 	padding-left: 50px;
 	padding-right: 50px;
 	width: 600px;
@@ -451,7 +451,7 @@ form {
 	align-items: center;
 	text-align: center;
 	color: black;
-	font-family: "Barlow Medium", sans-serif;
+	font-family: 'Barlow Medium', sans-serif;
 	font-size: 15px;
 	padding: 10px;
 }
