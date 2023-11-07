@@ -639,6 +639,7 @@ form {
 .mafalda-info {
     margin-top: 20px;
     text-align: center;
+	z-index: -1;
   }
 
   .fondo-derecha-pers,
@@ -652,19 +653,20 @@ form {
 	background: black;
 	z-index: 1; /* Fondo trasero */
 	transform: translate(30px, 30px);/* Desplazamiento hacia la derecha y abajo */
-	width: 800px;
-	height: 500px;
+	width: 400px;
+	height: 250px;
 }
 
 .fondo-abajo-pers {
 	background: #FFD99D;
 	z-index: 2; /* Fondo delantero */
-	width: 800px;
-	height: 500px;
+	width: 400px;
+	height: 250px;
 }
 
   .contenido-pers {
     padding: 20px;
+	z-index: 3;
   }
 
 .contenido-pers p {
