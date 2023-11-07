@@ -623,11 +623,11 @@ form {
 
 /*media de info de personajes*/
 
- main .mafalda-pers {
+ main .mafalda-pers, main .clemente-pers, main .paturuzu-pers, main .eternauta-pers, main .pereyra-pers, main .hijitus-pers{
     flex-direction: column;
   }
 
-  .mafalda-pers img {
+  .mafalda-pers img, .clemente-pers img, .paturuzu-pers img, .eternauta-pers img, .pereyra-pers img, .hijitus-pers img{
     width: 100%;
   }
 
@@ -635,7 +635,7 @@ form {
     align-items: center;
   }
 
-.mafalda-info {
+.mafalda-info, .clemente-info, .paturuzu-info, .eternauta-info, .pereyra-info, .hijitus-info {
     margin-top: 20px;
     text-align: center;
   }
