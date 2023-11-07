@@ -621,3 +621,44 @@ form {
   }
 }
 	
+/*media de personajes*/
+
+ main .mafalda-pers {
+    flex-direction: column;
+  }
+
+  .mafalda-pers img {
+    width: 100%;
+    height: auto;
+  }
+
+  .flexbox {
+    align-items: center;
+  }
+
+.mafalda-info {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .fondo-derecha-pers,
+  .fondo-abajo-pers {
+    position: static;
+    width: 100%;
+    border: none;
+  }
+
+  .contenido-pers {
+    padding: 20px;
+  }
+
+.contenido-pers p {
+    text-align: center;
+    padding: 0;
+    width: 100%;
+    text-indent: 0;
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+
