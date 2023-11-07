@@ -454,6 +454,10 @@ form {
 	font-size: 15px;
 }
 
+.bold{
+	font-family: "Barlow Black";
+	font-size: 15px;
+}
 
 @media screen and (max-width:600px) {
 	
