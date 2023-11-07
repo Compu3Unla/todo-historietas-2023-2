@@ -645,8 +645,23 @@ form {
   .fondo-abajo-pers {
     position: static;
     width: 100%;
-    border: none;
   }
+
+
+.fondo-derecha-pers{
+	background: black;
+	z-index: 1; /* Fondo trasero */
+	transform: translate(30px, 30px);/* Desplazamiento hacia la derecha y abajo */
+	width: 800px;
+	height: 500px;
+}
+
+.fondo-abajo-pers {
+	background: #FFD99D;
+	z-index: 2; /* Fondo delantero */
+	width: 800px;
+	height: 500px;
+}
 
   .contenido-pers {
     padding: 20px;
