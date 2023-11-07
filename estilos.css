@@ -10,7 +10,7 @@
 
 /*index*/
 .fondo{
-	background-color: #FFDCA5;  
+	background-color: #FFD595;  
 }
 
 header {
@@ -251,7 +251,6 @@ footer p {
 
 #formulario{
 	display: flex;
-	flex-direction: row;
 }
 
 .img-formulario {
@@ -263,8 +262,11 @@ form {
 	flex-direction: column; 
 	align-items: center; 
 	justify-content: center;
-	width: 100%;
-	height: 100%;
+	width: 450px; 
+	height: 400px; 
+	background-color: #6D48C6; 
+	border-radius: 40px; 
+	margin-left: 20px; 
 }
 
 .input-nombre, .input-correo, .input-asunto{
@@ -272,9 +274,9 @@ form {
 	font-size: 23px; 
 	background-color:#9FCCED;
 	border-radius: 40px; 
-	padding: 2%; 
+	padding: 4%; 
 	margin: 1%;  
-	width: 40%;
+	width: 70%;
 	height: 3px; 
 	border-style: solid;
 	border-width: 0.5%; 
@@ -282,31 +284,29 @@ form {
 
 .label-mensaje {
 	font-family: 'Barlow Medium', sans-serif;
-	font-size: 18px; 
-	color: black; 
-	margin-top: 10px; 
+	font-size: 20px; 
+	color: white; 
+	margin-top: 14px; 
 }
 
 .espacio-mensaje {
-	font-family: 'Barlow Medium', sans-serif;
-	font-size: 23px;
 	background-color:#9FCCED;
 	border-radius: 40px; 
 	padding: 2%; 
 	margin: 1%;
-	width: 40%;
-	height: 60px;
+	width: 70%;
+	height: 50px;
 	border-style: solid;
 	border-width: 0.5%; 
 }
 
 .boton-enviar {
-	width: 13%; 
+	width: 25%; 
 	font-family: 'Barlow Medium', sans-serif;
 	font-size: 23px;
 	background-color:#9FCCED;
 	border-radius: 45px; 
-	padding: 2%; 
+	padding: 4%; 
 	margin: 1%;
 	height: 3px; 
 	display: flex;
@@ -401,7 +401,6 @@ form {
 	justify-content: center; 
 	align-items: center;
 	margin-bottom: 7%; 
-	margin-top: 7%; 
 }	
 
 .novedades{
@@ -422,6 +421,7 @@ form {
 	flex-direction: column;
 	align-items: flex-end;
 	justify-content: flex-start;
+	padding: 20px;
 }
 
 .mafalda, .hijitus, .clemente, .pereyra {
@@ -434,18 +434,17 @@ form {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	position: relative;
-	margin-left: -80px; 
 }
 
 .texto-superpuesto {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 80%;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 35px;
+	background-color: #F9CA7F;
+	width: 350px;
+	height: 100px;
 	display: flex;
-	flex:1;
+	flex: 1;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
@@ -453,7 +452,19 @@ form {
 	color: black;
 	font-family: 'Barlow Medium', sans-serif;
 	font-size: 15px;
-	padding: 10px;
+}
+
+.bold{
+	font-family: "Barlow Black";
+	font-size: 20px;
+}
+
+img{
+	transition: transform 0.3s;
+}
+
+img:hover {
+	transform: scale(1.2);
 }
 
 
@@ -463,7 +474,13 @@ form {
 	
 	header {
 	height: 290px;
+	padding: 10px 0;
     }
+	
+	.logo{
+		width: 100%;
+		text-align: center;
+	}
 	
 	nav{
 	display: flex;
@@ -585,5 +602,37 @@ form {
 		flex-direction: column; 
 	}
 
+	.columna1, .columna2{
+		width: 100%;
+		align-items: center;
+	}
+	
+	.columna2{
+		padding: 0
+	}
+	
+	.video {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin: 10px 0;
+  }
+
+	.contenedor {
+	width: 100%;
+	align-items: center;
+  }
+	.texto-superpuesto {
+	width: 90%;
+	margin: 10px auto;
+  }
+
+	.bold {
+	font-size: 18px;
+  }
+
+	img:hover {
+	transform: scale(1.1);
+  }
 }
 	
