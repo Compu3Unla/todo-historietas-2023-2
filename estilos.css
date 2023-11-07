@@ -652,4 +652,42 @@ form {
 	transform: scale(1.1);
   }
 }
-	
+
+/*media de info de personajes*/
+
+ main .mafalda-pers, main .clemente-pers, main .paturuzu-pers, main .eternauta-pers, main .pereyra-pers, main .hijitus-pers{
+    flex-direction: column;
+  }
+
+  .mafalda-pers img, .clemente-pers img, .paturuzu-pers img, .eternauta-pers img, .pereyra-pers img, .hijitus-pers img{
+    width: 100%;
+  }
+
+  .flexbox {
+    align-items: center;
+  }
+
+.mafalda-info, .clemente-info, .paturuzu-info, .eternauta-info, .pereyra-info, .hijitus-info {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .fondo-derecha-pers,
+  .fondo-abajo-pers {
+    width: 450px;
+	height: 600px;
+	padding-bottom: 30px;
+  }
+
+  .contenido-pers {
+    padding: 20px;
+  }
+
+.contenido-pers p {
+    text-align: center;
+    padding: 5px;
+    width: 400px;
+    text-indent: 0;
+    font-size: 18px;
+    line-height: 26px;
+  }
