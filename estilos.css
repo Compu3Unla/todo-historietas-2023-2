@@ -629,7 +629,6 @@ form {
 
   .mafalda-pers img {
     width: 100%;
-    height: auto;
   }
 
   .flexbox {
@@ -643,9 +642,8 @@ form {
 
   .fondo-derecha-pers,
   .fondo-abajo-pers {
-    position: static;
-    width: 400px;
-	height: 250px;
+    width: 450px;
+	height: 600px;
   }
 
   .contenido-pers {
