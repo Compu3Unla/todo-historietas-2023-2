@@ -480,26 +480,20 @@ img:hover {
 
 @media screen and (max-width:600px) 
 {
-
-  .menu-toggle {
-    display: none; /* Oculta el checkbox de entrada */
-  }
-
-  .menu-icon {
-    font-size: 30px;
-    cursor: pointer;
-    display: block;
-    margin-right: 20px;
+.menu-icon {
+    display: block; /* Muestra el icono de hamburguesa en dispositivos móviles */
   }
 
   nav {
-    display: none;
+    display: none; /* Oculta el menú de navegación por defecto en dispositivos móviles */
   }
 
-  .menu-toggle:checked + nav {
-    display: block; /* Muestra el menú cuando el checkbox está marcado */
+  
+ 
+/* Estilos para el menú desplegado */
+  input[type="checkbox"]:checked ~ nav {
+    display: block; /* Muestra el menú cuando el input está marcado */
   }
-
 	
 	footer {
 	width: 100%;
