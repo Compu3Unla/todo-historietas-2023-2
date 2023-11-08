@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>todo-historietas</title>
 	<link href ="estilos.css" rel="stylesheet" type="text/css">
+	<link href="css-galeria-de-autores/jquery.fancybox.min.css" rel="stylesheet">
 </head>
 	<link rel="icon" type="image/png" href="img/favicon.png">
 
@@ -68,31 +69,40 @@
 				<label for="slide6"></label>
 			</div>
 		</section>
+		
+		<section class="galeria-autores">
+			<div class="columna1-autores">
+			
+				<a href="img/autores-sin-fondo/autores-1.svg" data-fancybox="gallery" data-caption="Quino">
+					<img src="img/autores-sin-fondo/autores-1.svg" alt="Quino" width="250px"/>
+				</a>
 
-<section class="galeria">
-  <input type="radio" id="imagen1" name="galeria" checked>
-  <div class="slide">
-    <label for="imagen3" class="flecha-izquierda">&#9664;</label>
-    <label for="imagen2" class="flecha-derecha">&#9654;</label>
-    <img src="img/autores-sin-fondo/autores-1.svg" alt="Imagen 1">
-  </div>
+				<a href="img/autores-sin-fondo/autores-2.svg" data-fancybox="gallery" data-caption="Caloi">
+					<img src="img/autores-sin-fondo/autores-2.svg" alt="Caloi" width="250px"/>
+				</a>
 
-  <input type="radio" id="imagen2" name="galeria">
-  <div class="slide">
-    <label for="imagen1" class="flecha-izquierda">&#9664;</label>
-    <label for="imagen3" class="flecha-derecha">&#9654;</label>
-    <img src="img/autores-sin-fondo/autores-2.svg" alt="Imagen 2">
-  </div>
+				<a href="img/autores-sin-fondo/autores-3.svg" data-fancybox="gallery" data-caption="Solano Lopez">
+					<img src="img/autores-sin-fondo/autores-3.svg" alt="Solano Lopez" width="250px"/>
+				</a>
+			
+			</div>
+			<div class="columna2-autores">
 
-  <input type="radio" id="imagen3" name="galeria">
-  <div class="slide">
-    <label for="imagen2" class="flecha-izquierda">&#9664;</label>
-    <label for="imagen1" class="flecha-derecha">&#9654;</label>
-    <img src="img/autores-sin-fondo/autores-3.svg" alt="Imagen 3">
-  </div>
-</section>
+				<a href="img/autores-sin-fondo/autores-4.svg" data-fancybox="gallery" data-caption="García Ferré">
+					<img src="img/autores-sin-fondo/autores-4.svg" alt="García Ferré" width="250px"/>
+				</a>
 
+				<a href="img/autores-sin-fondo/autores-5.svg" data-caption="Fontanarrosa">
+					<img src="img/autores-sin-fondo/autores-5.svg" alt="Fontanarrosa" width="250px"/>
+				</a>
 
+				<a href="img/autores-sin-fondo/autores-6.svg" data-caption="Quinterno">
+					<img src="img/autores-sin-fondo/autores-6.svg" alt="Quinterno" width="250px"/>
+				</a>
+				
+			</div>	
+		</section>
+	
 		<div class="flex">
 		<section id="sobre-nosotros">
 			<div class="fondo-derecha"></div>
@@ -127,6 +137,8 @@
 		<a href="https://youtu.be/yW31vlHX5XY?feature=shared" target="_blank"><img src="img/svg-de-personajes-y-extras/iconos-de-redes-sociales-en-svg/iconos-redes-sociales/icono-redes-youtube.svg" alt="Youtube" height="30px" width="30px"></a>
 		</ul>
 	</footer>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="js-galeria-de-autores/jquery.fancybox.min.js"></script>
 </body>
 	
 </html>
