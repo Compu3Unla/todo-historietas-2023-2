@@ -473,7 +473,7 @@ img:hover {
     display: flex;
 	}
 	
-	nav .index {
+	.index nav {
 	display: flex;
     align-items: center;
     justify-content: flex-end;
