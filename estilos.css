@@ -476,21 +476,30 @@ img:hover {
   .menu-icon {
     font-size: 30px;
     cursor: pointer;
+    float: right; /* Mueve el icono a la derecha del header */
   }
 
   nav {
     display: none;
-    flex-direction: column; /* Cambia la dirección del flexbox para desplegar hacia abajo */
+    width: 0; /* Inicialmente, el menú tiene un ancho de 0 */
+    overflow: hidden; /* Oculta el contenido que desborda del menú */
+    position: absolute;
+    right: 0; /* Coloca el menú a la derecha */
+    background-color: #333; /* Color de fondo del menú */
+    transition: width 0.3s; /* Agrega una transición para suavizar el despliegue */
   }
 
-  .menu-toggle:checked nav {
-    display: flex; /* Muestra el menú cuando el checkbox está marcado */
+  .menu-toggle:checked + nav {
+    width: 100%; /* Muestra el menú cuando el checkbox está marcado */
   }
-	
-	 nav a {
+
+  nav a {
     padding: 10px; /* Espaciado entre elementos del menú */
     text-align: center;
+    display: block;
+    color: white; /* Color del texto del menú */
   }
+
 	
 	footer {
 	width: 100%;
