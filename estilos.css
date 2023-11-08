@@ -89,6 +89,11 @@ footer{
 	flex-direction: column;
 }
 
+img .galeria{
+	max-width: 100%;
+	height: auto;
+}
+
 .slider {
 	display: flex;
 	overflow: scroll;
