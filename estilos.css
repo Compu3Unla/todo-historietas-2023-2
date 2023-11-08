@@ -89,6 +89,11 @@ footer{
 	flex-direction: column;
 }
 
+.galeria img{
+	max-width: 100%;
+	height: auto;
+}
+
 .slider {
 	display: flex;
 	overflow: scroll;
@@ -119,12 +124,6 @@ input[type="radio"]:checked ~ .slider .imagen {
 	display: block;
 	text-align: center;
 }
-
-img {
-	max-width: 100%;
-	height: auto;
-}
-
 
 /*carrusel*/
 .carrusel {
@@ -243,7 +242,7 @@ footer ul a  {
 
 footer p {
 	font-family: 'Barlow Medium', sans-serif;
-	color:#9FCCED;
+	color:white;
 	margin-right: 4%; 
 }
 
@@ -307,7 +306,7 @@ form {
 .boton-enviar {
 	width: 25%; 
 	font-family: 'Barlow Medium', sans-serif; 
-	font-size: 23px;
+	font-size: 20px;
 	background-color:#9FCCED;
 	border-radius: 45px; 
 	padding: 4%; 
@@ -347,7 +346,7 @@ form {
 	font-family: 'Barlow Medium', sans-serif;  
 	width: 550px;
 	line-height: 25px;
-	font-size: 18px;
+	font-size: 16px;
 	color: black;
 	background-color: #F9CA7F;
 	border-radius: 45px; 
@@ -432,7 +431,7 @@ form {
 	text-align: center;
 	color: black;
 	font-family: 'Barlow Medium', sans-serif;
-	font-size: 15px; 
+	font-size: 13px; 
 }
 
 .texto-superpuesto-video {
@@ -456,7 +455,7 @@ form {
 
 .bold{
 	font-family: 'Barlow Black', sans-serif; 
-	font-size: 20px;
+	font-size: 18px;
 }
 
 img{
@@ -552,12 +551,14 @@ h2 {
 	padding-left: 1px;
 	padding-right: 5px;
 	width: 430px;
+	font-size: 18px
 }
 
 .negrita {
 	padding-left: 1px;
 	padding-right: 5px;
 	width: 430px;
+	font-size: 18px;
 }
 	
 /* media formulario*/
@@ -577,11 +578,11 @@ form {
 }
 
 .input-nombre, .input-correo, .input-asunto{
-	font-size: 30px; 
+	font-size: 28px; 
 }
 
 .boton-enviar {
-	font-size: 30px;
+	font-size: 28px;
 }
 	
 /* media novedades */
@@ -628,7 +629,7 @@ form {
 	}
 	
 	.bold {
-	font-size: 18px;
+	font-size: 16px;
   }
 	
 	.video-novedades{
@@ -656,7 +657,8 @@ form {
   }
 
   .texto-personaje {
-    font-size: 16px;
-    padding: 10px;
-    text-align: center;}
+    font-size: 12px;
+    text-align: center;
+	width: 400px;
+	}
 }
