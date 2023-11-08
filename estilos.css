@@ -123,56 +123,6 @@ input[type="radio"]:checked ~ .slider .imagen {
 	text-align: center;
 }
 
-/*galeria autores
-.autores{
-	width: 30%;
-}
-
-.galeria {
-  display: flex;
-  overflow: hidden;
-}
-
-.galeria img{
-	width: 236px;
-	height: 300px
-}
-
-.slide {
-  position: relative;
-  flex: 1;
-  transition: transform 0.5s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-input[type="radio"] {
-  display: none;
-}
-
-input[type="radio"]:checked ~ .slide {
-  transform: translateX(0);
-}
-
-.flecha-izquierda, .flecha-derecha {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 24px;
-  cursor: pointer;
-  color: #000;
-}
-
-.flecha-izquierda {
-  left: 10px;
-}
-
-.flecha-derecha {
-  right: 10px;
-}
-*/
-
 /* galería de autores */
 
 .galeria-autores {
