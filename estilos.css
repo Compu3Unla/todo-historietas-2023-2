@@ -80,14 +80,14 @@ footer{
 	font-size: 20px;
 }
 
-/*galeria*/
+/*carrusel personajes*/
 
-.galeria {
+.carrusel {
  	display: flex;
 	flex-direction: column;
 }
 
-.galeria img{
+.carrusel img{
 	max-width: 100%;
 	height: auto;
 }
@@ -123,7 +123,7 @@ input[type="radio"]:checked ~ .slider .imagen {
 	text-align: center;
 }
 
-/*carrusel*/
+/*galeria autores*/
 .autores{
 	width: 30%;
 }
@@ -131,6 +131,11 @@ input[type="radio"]:checked ~ .slider .imagen {
 .galeria {
   display: flex;
   position: relative;
+}
+
+.galeria img{
+	width: 236px;
+	height: 300px
 }
 
 .galeria a {
