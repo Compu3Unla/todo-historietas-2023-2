@@ -307,7 +307,7 @@ form {
 .boton-enviar {
 	width: 25%; 
 	font-family: 'Barlow Medium', sans-serif; 
-	font-size: 23px;
+	font-size: 20px;
 	background-color:#9FCCED;
 	border-radius: 45px; 
 	padding: 4%; 
@@ -347,7 +347,7 @@ form {
 	font-family: 'Barlow Medium', sans-serif;  
 	width: 550px;
 	line-height: 25px;
-	font-size: 18px;
+	font-size: 16px;
 	color: black;
 	background-color: #F9CA7F;
 	border-radius: 45px; 
@@ -432,7 +432,7 @@ form {
 	text-align: center;
 	color: black;
 	font-family: 'Barlow Medium', sans-serif;
-	font-size: 15px; 
+	font-size: 13px; 
 }
 
 .texto-superpuesto-video {
@@ -456,7 +456,7 @@ form {
 
 .bold{
 	font-family: 'Barlow Black', sans-serif; 
-	font-size: 20px;
+	font-size: 18px;
 }
 
 img{
@@ -577,11 +577,11 @@ form {
 }
 
 .input-nombre, .input-correo, .input-asunto{
-	font-size: 30px; 
+	font-size: 28px; 
 }
 
 .boton-enviar {
-	font-size: 30px;
+	font-size: 28px;
 }
 	
 /* media novedades */
@@ -628,7 +628,7 @@ form {
 	}
 	
 	.bold {
-	font-size: 18px;
+	font-size: 16px;
   }
 	
 	.video-novedades{
@@ -656,7 +656,7 @@ form {
   }
 
   .texto-personaje {
-    font-size: 16px;
+    font-size: 14px;
     padding: 10px;
     text-align: center;}
 }
