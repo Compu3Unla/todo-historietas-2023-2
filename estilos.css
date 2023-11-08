@@ -125,7 +125,7 @@ input[type="radio"]:checked ~ .slider .imagen {
 
 /*carrusel*/
 .autores{
-	width: 50%;
+	width: 30%;
 }
 .carrusel {
 	aspect-radio:10/16;
