@@ -468,10 +468,6 @@ img:hover {
 
 @media screen and (max-width:600px) 
 {
-header {
-	height: 290px;
-	padding: 10px 0;
-    }
 	
 	.logo {
     width: 100%; 
@@ -479,7 +475,8 @@ header {
 	}
 	
 	header{
-	height: 0;
+	width: 100%;
+	height: auto;
 	display: flex;
 	justify-content: center;
 	}
