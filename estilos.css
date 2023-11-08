@@ -176,7 +176,9 @@ input[type="radio"]:checked ~ .slide {
 
 h2 {
 	color:#6D48C6;
-	font-family: 'Barlow Black', sans-serif; 
+	font-family: 'Barlow', sans-serif; 
+	font-weight: 900; 
+	font-style: normal; 
 	font-size: 45px;
 	text-align: left; 
 	margin-left: 6.5%; 
@@ -239,6 +241,8 @@ h2 {
 .texto-sn {
 	text-align:left;
 	font-family: 'Barlow', sans-serif; 
+	font-weight: 400; 
+	font-style: normal; 
 	padding-left: 50px;
 	padding-right: 50px;
 	width: 700px;
@@ -249,7 +253,9 @@ h2 {
 
 .negrita {
 	text-align:left;
-	font-family: 'Barlow SemiBold', sans-serif; 
+	font-family: 'Barlow', sans-serif; 
+	font-weight: 600; 
+	font-style: normal; 
 	padding-left: 50px;
 	padding-right: 50px;
 	width: 700px;
@@ -270,7 +276,9 @@ footer ul a  {
 }
 
 footer p {
-	font-family: 'Barlow Medium', sans-serif;
+	font-family: 'Barlow', sans-serif;
+	font-weight: 500; 
+	font-style: normal; 
 	color:white;
 	margin-right: 4%; 
 }
@@ -298,7 +306,9 @@ form {
 }
 
 .input-nombre, .input-correo, .input-asunto {
-	font-family: 'Barlow Medium', sans-serif;
+	font-family: 'Barlow', sans-serif;
+	font-weight: 500; 
+	font-style: normal; 
 	font-size: 23px; 
 	background-color:#9FCCED;
 	border-radius: 40px; 
@@ -312,7 +322,9 @@ form {
 }
 
 .label-mensaje {
-	font-family: 'Barlow Medium', sans-serif;
+	font-family: 'Barlow', sans-serif;
+	font-weight: 500; 
+	font-style: normal; 
 	font-size: 20px; 
 	color: white; 
 	margin-top: 12px; 
@@ -334,7 +346,9 @@ form {
 
 .boton-enviar {
 	width: 25%; 
-	font-family: 'Barlow Medium', sans-serif; 
+	font-family: 'Barlow', sans-serif; 
+	font-weight: 500; 
+	font-style: normal; 
 	font-size: 20px;
 	background-color:#9FCCED;
 	border-radius: 45px; 
@@ -372,7 +386,9 @@ form {
 
 .texto-personaje {
 	text-align: left;
-	font-family: 'Barlow Medium', sans-serif;  
+	font-family: 'Barlow', sans-serif;
+	font-weight: 500; 
+	font-style: normal; 
 	width: 550px;
 	line-height: 25px;
 	font-size: 16px;
@@ -459,7 +475,9 @@ form {
 	align-items: center;
 	text-align: center;
 	color: black;
-	font-family: 'Barlow Medium', sans-serif;
+	font-family: 'Barlow', sans-serif;
+	font-weight: 500; 
+	font-style: normal; 
 	font-size: 13px; 
 }
 
@@ -477,13 +495,17 @@ form {
 	align-items: center;
 	text-align: center;
 	color: black;
-	font-family: 'Barlow Medium', sans-serif;
+	font-family: 'Barlow', sans-serif;
+	font-weight: 500; 
+	font-style: normal; 
 	font-size: 15px;
 	margin-right: 30px; 
 }
 
 .bold{
-	font-family: 'Barlow Black', sans-serif; 
+	font-family: 'Barlow', sans-serif; 
+	font-weight: 900; 
+	font-style: normal; 
 	font-size: 18px;
 }
 
