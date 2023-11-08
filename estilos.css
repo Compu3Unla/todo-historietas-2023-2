@@ -124,6 +124,9 @@ input[type="radio"]:checked ~ .slider .imagen {
 }
 
 /*carrusel*/
+.autores{
+	width: 30%;
+}
 .carrusel {
 	aspect-radio:10/16;
 	width:100%;
@@ -488,32 +491,32 @@ img:hover {
 
 @media screen and (max-width:600px) 
 {
-header {
-	height: 290px;
-	padding: 10px 0;
-    }
+	
+	.index{
+	width: 100%;
+    height: 210px;
+    display: flex;
+	justify-content: space-between;
+	}
+	
+	.index nav {
+	display: flex;
+    align-items: center;
+    margin-right: 35px;
+    flex-direction: column;
+	}
 	
 	.logo {
     width: 100%; 
-    text-align: start;
+    text-align: center;
 	}
 	
-	nav{
+	header{
+	width: 100%;
+	height: auto;
 	display: flex;
-	flex-direction: column; 
-	align-items: center;
-	justify-content: flex-end;
-	margin-right: 30px; 
-	margin-left: 200px; 
+	justify-content: center;
 	}
-	
-	nav a { 
-	font-size: 20px; 
-	padding: 15px; 
-	border-radius: 45px; 
-	width: 150px; 
-	}
-
 	
 	footer {
 	width: 100%;
@@ -661,20 +664,16 @@ form {
   }
 
 /*media de info de personajes*/
+	
+	.tam_img{
+		width: 50%
+	}
+	
   .contenedor-info-personaje {
     display: flex;
     flex-direction: column;
   }
 
-  .contenedor-info-personaje img {
-    width: 100%;
-    height: auto;
-  }
-
-  .columna-info-personaje img {
-    width: 100%;
-    height: auto;
-  }
 
   .texto-personaje {
     font-size: 12px;
