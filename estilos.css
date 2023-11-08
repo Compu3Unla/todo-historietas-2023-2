@@ -45,8 +45,6 @@ nav{
 nav a:hover {
 	background-color: #6D48C6;
 	color: #8CCCF1;
-	/*border-style: solid; 
-	border-color: #8CCCF1;*/
 	transform: translateY(-3px);
 	transition-duration: 0.5s;
 }
@@ -54,14 +52,14 @@ nav a:hover {
 nav a:active {
 	background-color: #F9CA7F;
 	color: #6D48C6;
-	/*border-style: solid;  
-	border-color: #6D48C6; */
 }
 
 nav a {  
 	color: #6D48C6;
 	background-color: #8CCCF1;
 	font-family: 'Barlow Black', sans-serif;  
+	font-weight: 900; 
+	font-style: normal; 
 	text-align: center; 
 	padding: 10px; 
 	margin: 6px; 
