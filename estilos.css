@@ -124,6 +124,9 @@ input[type="radio"]:checked ~ .slider .imagen {
 }
 
 /*carrusel*/
+.autores{
+	width: 50%;
+}
 .carrusel {
 	aspect-radio:10/16;
 	width:100%;
@@ -639,6 +642,11 @@ form {
   }
 
 /*media de info de personajes*/
+	
+	.tam_img{
+		width: 50%
+	}
+	
   .contenedor-info-personaje {
     display: flex;
     flex-direction: column;
