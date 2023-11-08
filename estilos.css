@@ -120,12 +120,6 @@ input[type="radio"]:checked ~ .slider .imagen {
 	text-align: center;
 }
 
-img {
-	max-width: 100%;
-	height: auto;
-}
-
-
 /*carrusel*/
 .carrusel {
 	aspect-radio:10/16;
@@ -657,6 +651,7 @@ form {
 
   .texto-personaje {
     font-size: 12px;
-    padding: 10px;
-    text-align: center;}
+    text-align: center;
+	width: 400px;
+	}
 }
