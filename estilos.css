@@ -471,12 +471,12 @@ img:hover {
 	width: 100%;
     height: 210px;
     display: flex;
+	justify-content: space-between;
 	}
 	
 	.index nav {
 	display: flex;
     align-items: center;
-    justify-content: flex-end;
     margin-right: 35px;
     flex-direction: column;
 	}
