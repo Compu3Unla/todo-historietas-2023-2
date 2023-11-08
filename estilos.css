@@ -80,14 +80,14 @@ footer{
 	font-size: 20px;
 }
 
-/*galeria*/
+/*carrusel personajes*/
 
-.galeria {
+.carrusel {
  	display: flex;
 	flex-direction: column;
 }
 
-.galeria img{
+.carrusel img{
 	max-width: 100%;
 	height: auto;
 }
@@ -123,25 +123,53 @@ input[type="radio"]:checked ~ .slider .imagen {
 	text-align: center;
 }
 
-/*carrusel*/
+/*galeria autores*/
 .autores{
 	width: 30%;
 }
-.carrusel {
-	aspect-radio:10/16;
-	width:100%;
-	position:relative;
-	display:flex;
-	overflow:scroll;
-	scroll-snap-type: x mandatory;
-	
+
+.galeria {
+  display: flex;
+  overflow: hidden;
 }
 
-.carrusel-autores {
-	display: flex;
-	justify-content: center;
-	align-content: center; 
-	flex-direction: column;
+.galeria img{
+	width: 236px;
+	height: 300px
+}
+
+.slide {
+  position: relative;
+  flex: 1;
+  transition: transform 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+input[type="radio"]:checked ~ .slide {
+  transform: translateX(0);
+}
+
+.flecha-izquierda, .flecha-derecha {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  cursor: pointer;
+  color: #000;
+}
+
+.flecha-izquierda {
+  left: 10px;
+}
+
+.flecha-derecha {
+  right: 10px;
 }
 
 /*sobre nosotros*/
@@ -666,7 +694,8 @@ form {
 /*media de info de personajes*/
 	
 	.tam_img{
-		width: 50%
+	height: 300px;
+	width: 236px;
 	}
 	
   .contenedor-info-personaje {
