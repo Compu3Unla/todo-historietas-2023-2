@@ -127,8 +127,10 @@ input[type="radio"]:checked ~ .slider .imagen {
 .autores{
 	width: 30%;
 }
+
 .galeria {
   display: flex;
+  position: relative;
 }
 
 .galeria a {
@@ -142,6 +144,24 @@ input[type="radio"]:checked ~ .slider .imagen {
 .slider:target {
   display: block;
 }
+
+.siguiente, .anterior {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  text-decoration: none;
+  color: #000;
+}
+
+.siguiente {
+  right: 0;
+}
+
+.anterior {
+  left: 0;
+}
+
 
 
 /*sobre nosotros*/
