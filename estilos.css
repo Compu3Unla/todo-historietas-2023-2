@@ -172,6 +172,14 @@ input[type="radio"]:checked ~ .slide {
   right: 10px;
 }
 
+/* galería de autores */
+
+.galeria-autores {
+	display: flex; 
+	flex-direction: column; 
+	align-items: center; 
+}
+
 /*sobre nosotros*/
 
 h2 {
