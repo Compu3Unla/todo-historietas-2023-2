@@ -467,11 +467,9 @@ img:hover {
 	transform: scale(1.2);
 }
 
-@media screen and (max-width:600px) {
-	
-	/* media index */
-	
-	header {
+@media screen and (max-width:600px) 
+{
+header {
 	height: 290px;
 	padding: 10px 0;
     }
@@ -496,6 +494,7 @@ img:hover {
 	border-radius: 45px; 
 	width: 150px; 
 	}
+
 	
 	footer {
 	width: 100%;
@@ -659,6 +658,5 @@ form {
   .texto-personaje {
     font-size: 16px;
     padding: 10px;
-    text-align: center;
-  }
+    text-align: center;}
 }
