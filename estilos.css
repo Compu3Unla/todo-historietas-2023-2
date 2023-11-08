@@ -489,7 +489,7 @@ img:hover {
     transition: width 0.3s; /* Agrega una transición para suavizar el despliegue */
   }
 
-  .menu-toggle:checked + nav {
+   nav .menu-toggle:checked  {
     width: 100%; /* Muestra el menú cuando el checkbox está marcado */
   }
 
