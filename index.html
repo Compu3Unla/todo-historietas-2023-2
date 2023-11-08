@@ -9,7 +9,7 @@
 	<link rel="icon" type="image/png" href="img/favicon.png">
 
 <body class="fondo">
-	<header>
+	<header class="index">
 		<a href="index.html"><img class="logo" src="img/logo.svg" alt="Logo" height="130px" width="250px" /></a>
 		<nav>
 			<a href= "#">Categor&iacute;as</a>
@@ -19,7 +19,7 @@
 		</nav>
 	</header>
 	<main>
-		<section class="galeria">
+		<section class="carrusel">
 				<div class="slider">
 					<input type="radio" name="slide" id="slide1" checked>
 					<input type="radio" name="slide" id="slide2">
@@ -69,15 +69,29 @@
 			</div>
 		</section>
 
+<section class="galeria">
+  <input type="radio" id="imagen1" name="galeria" checked>
+  <div class="slide">
+    <label for="imagen3" class="flecha-izquierda">&#9664;</label>
+    <label for="imagen2" class="flecha-derecha">&#9654;</label>
+    <img src="img/autores-sin-fondo/autores-1.svg" alt="Imagen 1">
+  </div>
 
-		<section class="carrusel-autores">
-				<img src="img/Globo_de_dialogo_autores.svg" alt="autores" width="600px" height="270px"/>
-			<div class="carrusel" >
-				<img src= "img/img-3-unidas/deslizable-1-autores.jpg" alt="foto de autores1">
-				<img src= "img/img-3-unidas/deslizable-2-autores.jpg" alt=" foto de autores2">
-				<img src= "img/img-3-unidas/deslizable-3-autores.jpg" alt=" foto de autores3">
-			</div>
-		</section>
+  <input type="radio" id="imagen2" name="galeria">
+  <div class="slide">
+    <label for="imagen1" class="flecha-izquierda">&#9664;</label>
+    <label for="imagen3" class="flecha-derecha">&#9654;</label>
+    <img src="img/autores-sin-fondo/autores-2.svg" alt="Imagen 2">
+  </div>
+
+  <input type="radio" id="imagen3" name="galeria">
+  <div class="slide">
+    <label for="imagen2" class="flecha-izquierda">&#9664;</label>
+    <label for="imagen1" class="flecha-derecha">&#9654;</label>
+    <img src="img/autores-sin-fondo/autores-3.svg" alt="Imagen 3">
+  </div>
+</section>
+
 
 		<div class="flex">
 		<section id="sobre-nosotros">
