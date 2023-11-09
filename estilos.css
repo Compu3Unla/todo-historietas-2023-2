@@ -599,7 +599,8 @@ img:hover {
 	.galeria-de-autores{
 	display: flex;
     flex-direction: column;
-	margin-top: 50px;
+	margin-top: 70px;
+	margin-bottom: 70px; 
 	}
 	
 
@@ -607,8 +608,8 @@ img:hover {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    margin: 70px;
-	padding-left: 10px;
+    margin-top: 50px;
+	
 	}
 	
 .flex-autores {
