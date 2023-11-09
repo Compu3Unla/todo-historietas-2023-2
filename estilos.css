@@ -132,6 +132,10 @@ input[type="radio"]:checked ~ .slider .imagen {
 	margin-top: 80px; 
 }
 
+.autores {
+	margin-bottom: 20px; 
+}
+
 .flex-autores {
 	display: flex; 
 	flex-direction: column; 
@@ -386,12 +390,21 @@ form {
 	align-items: center;
 	align-content: center; 
 	margin-bottom: 70px; 
+	margin-top: 70px; 
+}
+
+.contenedor-info-personaje img {
+	margin-right: 50px; 
 }
 
 .columna-info-personaje {
 	display: flex;
 	flex-direction: column; 
 	align-items: center; 
+}
+
+.columna-info-personaje img {
+	margin-bottom: 20px; 
 }
 
 .texto-personaje {
@@ -416,13 +429,15 @@ form {
 	display: flex;
 	flex-direction: column; 
 	align-items: center; 
+	margin-top: 70px; 
 }
 
 .video-novedades {
 	display: flex; 
 	align-content: center; 
 	justify-content: center; 
-	margin-bottom: 7%; 
+	margin-top: 50px; 
+	margin-bottom: 70px; 
 	background-color: #6D48C6; 
 	border-radius: 40px; 
 	width: 700px; 
@@ -443,14 +458,17 @@ form {
 
 .novedades{
 	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap; 
+}
+
+.novedades img {
+	margin-right: 20px; 
 }
 
 .columna1{
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
+	margin-right: 80px; 
 }
 
 .columna2{
@@ -461,7 +479,7 @@ form {
 }
 
 .mafalda, .hijitus, .clemente, .pereyra {
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 	display: flex;
 	
 }
@@ -578,23 +596,28 @@ img:hover {
 	height: 700px; 
 	}
 	
-.galeria-de-autores{
+	.galeria-de-autores{
 	display: flex;
     flex-direction: column;
-	margin: 0px;
+	margin-top: 70px;
+	margin-bottom: 70px; 
+	justify-content: center; 
 	}
 	
+	.flex-autores {
+		margin-right: 0px; 
+	}
 
 .galeria-imagenes {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column; 
     align-items: center;
-    margin: 70px;
-	padding-left: 10px;
-	}
+    margin-top: 50px;
 	
-.flex-autores {
-		margin-right: 0px; 
+	}
+
+	.galeria-imagenes img {
+		width: 160px; 
 	}
 	
 .carrusel{
@@ -616,12 +639,12 @@ h2 {
 
 .fondo-derecha {
 	width: 500px;
-	height: 700px;
+	height: 650px;
 }
 
 .fondo-abajo {
 	width: 500px;
-	height: 700px;
+	height: 650px;
 }
 
 .contenido {
@@ -645,6 +668,7 @@ h2 {
 
 	#sobre-nosotros {
 		margin-top: 15px; 
+		margin-bottom: 90px; 
 	}
 	
 /* media formulario*/
@@ -657,10 +681,12 @@ h2 {
 	
 .img-formulario {
 	margin-left: 0px; 
+	width: 400px; 
 }
 
 form {
 	margin-bottom: 30px; 
+	margin-top: -60px; 
 }
 
 .input-nombre, .input-correo, .input-asunto{
@@ -698,16 +724,16 @@ form {
 	display: flex;
 	flex-direction: column;
 	text-align: center;
-	margin: 10px 0;
+	align-items: center; 
   }
-
-	.contenedor {
-	width: 100%;
+	
+	.novedades .contenedor {
+	width: 290px; 
 	align-items: center;
   }
 	.texto-superpuesto {
 	width: 90%;
-	margin: 10px auto;
+	
   }
 
 	.texto-superpuesto-video{
@@ -719,7 +745,12 @@ form {
   }
 	
 	.video-novedades{
-		width: 500px;
+		width: 450px;
+		height: 550px; 
+		display: flex; 
+		flex-direction: column;  
+		align-items: center; 
+		justify-content: center; 
 	}
 
 	img:hover {
@@ -727,11 +758,6 @@ form {
   }
 
 /*media de info de personajes*/
-	
-	.tam_img{
-	height: 300px;
-	width: 236px;
-	}
 	
   .contenedor-info-personaje {
     display: flex;
