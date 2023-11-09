@@ -601,19 +601,23 @@ img:hover {
     flex-direction: column;
 	margin-top: 70px;
 	margin-bottom: 70px; 
+	justify-content: center; 
 	}
 	
+	.flex-autores {
+		margin-right: 0px; 
+	}
 
 .galeria-imagenes {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column; 
     align-items: center;
     margin-top: 50px;
 	
 	}
-	
-.flex-autores {
-		margin-right: 0px; 
+
+	.galeria-imagenes img {
+		width: 160px; 
 	}
 	
 .carrusel{
@@ -635,12 +639,12 @@ h2 {
 
 .fondo-derecha {
 	width: 500px;
-	height: 700px;
+	height: 650px;
 }
 
 .fondo-abajo {
 	width: 500px;
-	height: 700px;
+	height: 650px;
 }
 
 .contenido {
@@ -676,6 +680,7 @@ h2 {
 	
 .img-formulario {
 	margin-left: 0px; 
+	width: 400px; 
 }
 
 form {
