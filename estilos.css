@@ -132,6 +132,10 @@ input[type="radio"]:checked ~ .slider .imagen {
 	margin-top: 80px; 
 }
 
+.autores {
+	margin-bottom: 20px; 
+}
+
 .flex-autores {
 	display: flex; 
 	flex-direction: column; 
