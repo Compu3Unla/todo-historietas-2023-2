@@ -745,7 +745,12 @@ form {
   }
 	
 	.video-novedades{
-		width: 500px;
+		width: 450px;
+		height: 500px; 
+		display: flex; 
+		flex-direction: column; 
+		align-content: center; 
+		align-items: center; 
 	}
 
 	img:hover {
