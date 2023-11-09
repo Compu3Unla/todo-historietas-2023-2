@@ -564,6 +564,10 @@ img:hover {
     right: 20px;
 }
 
+	.icon, .close-icon{
+	display:block;
+}
+	
 .close-menu {
     display: none;
 }
