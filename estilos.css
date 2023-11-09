@@ -547,11 +547,7 @@ img:hover {
 
 /* Estilos para pantallas mayores a 600px */
 
-.menu-toggle, .close-menu {
-	display: none;
-}
-
-nav .back-to-top{
+nav .menu-toggle, .back-to-top {
 	display: none;
 }
 
@@ -572,14 +568,10 @@ nav .back-to-top{
         z-index: 1000;
     }
 
-    .menu-toggle, .close-menu {
+    .menu-toggle{
         display: block;
         font-size: 24px;
         cursor: pointer;
-    }
-
-    .close-menu {
-        display: none;
     }
 
     /* Otros estilos para el menú hamburguesa */

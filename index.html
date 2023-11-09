@@ -10,27 +10,17 @@
 <script>
     document.addEventListener('DOMContentLoaded', function () {
         const menuToggle = document.querySelector('.menu-toggle');
-        const closeMenu = document.querySelector('.close-menu');
         const nav = document.querySelector('nav');
         const backToTop = document.querySelector('.back-to-top');
 
         menuToggle.addEventListener('click', function () {
             nav.classList.toggle('show');
             menuToggle.style.display = 'none';
-            closeMenu.style.display = 'block';
             backToTop.style.display = 'none';
-        });
-
-        closeMenu.addEventListener('click', function () {
-            nav.classList.remove('show');
-            closeMenu.style.display = 'none';
-            menuToggle.style.display = 'block';
-            backToTop.style.display = 'block';
         });
 
         backToTop.addEventListener('click', function () {
             nav.classList.remove('show');
-            closeMenu.style.display = 'none';
             menuToggle.style.display = 'block';
             backToTop.style.display = 'none';
         });
