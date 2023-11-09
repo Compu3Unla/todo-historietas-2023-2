@@ -128,6 +128,9 @@ input[type="radio"]:checked ~ .slider .imagen {
 .autores{
 	width: 30%;
 }
+.flex-galeria{
+	display: flex
+}
 
 .galeria p{
 	font-family: 'Barlow', sans-serif; 
