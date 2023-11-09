@@ -628,10 +628,10 @@ nav {
 }
 
 .close-menu:checked ~ .close-icon {
-    display: none;
+    display: block;
 }
 	/* Añadido para que la cruz vaya hacia atrás */
-#close-menu:checked~nav {
+#close-menu:checked ~ nav {
     opacity: 0;
     pointer-events:none;
 }
