@@ -545,6 +545,55 @@ img:hover {
 	transform: scale(1.2);
 }
 
+/* Estilos para pantallas mayores a 600px */
+
+.menu-toggle, .back-to-top nav {
+	display: none;
+}
+
+/* Estilos para pantallas menores o iguales a 600px */
+@media screen and (max-width: 600px) {
+    nav {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #F9CA7F;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        z-index: 1000;
+    }
+
+    .menu-toggle{
+        display: block;
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    /* Otros estilos para el menú hamburguesa */
+    nav.show {
+        display: flex;
+    }
+
+    nav a {
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+    }
+
+    .back-to-top {
+        font-size: 24px;
+        cursor: pointer;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 1000;
+    }
+}
 
 @media screen and (max-width:600px) 
 {
@@ -553,24 +602,12 @@ img:hover {
 		display: flex;
 		justify-content: space-between; 
 	}
-	.index nav {
-	display: flex;
-    align-items: center;
-    margin-right: 35px;
-    flex-direction: column;
-	}
 	
 	.logo {
     width: 100%; 
     text-align: center;
 	}
 	
-	header{
-	width: 100%;
-	height: auto;
-	display: flex;
-	justify-content: center;
-	}
 	
 	footer {
 	width: 100%;
