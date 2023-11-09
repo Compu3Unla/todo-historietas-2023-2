@@ -550,6 +550,10 @@ nav {
     display: block;
 }
 
+.menu-toggle, .close-menu{
+	display: none;
+}
+
 /* Estilos para pantallas menores o iguales a 600px */
 @media screen and (max-width: 600px) {
     nav {
