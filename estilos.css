@@ -154,7 +154,7 @@ from {
 	}
 }
 
-.galeria{
+.intro-galeria {
 	background: #F9CA7F;
 	border-radius: 45px;
 	border-style: solid; 
@@ -166,14 +166,14 @@ from {
 	align-items: center;
 }
 
-.galeria-autores {
+.galeria-imagenes {
 	display: flex; 
 	flex-direction: column; 
 	align-items: center; 
 	margin-top: 100px; 
 }
 
-.galeria-autores img {
+.galeria-imagenes img {
 	padding: 10px; 
 }
 
