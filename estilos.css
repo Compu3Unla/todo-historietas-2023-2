@@ -642,8 +642,9 @@ img:hover {
     display: block;
 }
 
-.close-menu:checked ~ .close-icon {
-    transform: rotate(180deg); /* Rotar la cruz hacia atrás */
+.close-menu:checked ~ nav {
+    opacity: 0;
+    pointer-events: none;
 }
 
 @media screen and (max-width:600px) 
