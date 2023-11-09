@@ -546,9 +546,8 @@ img:hover {
 }
 
 /* Estilos para pantallas mayores a 600px */
-
-.menu-toggle, .back-to-top nav {
-	display: none;
+nav {
+    display: block;
 }
 
 /* Estilos para pantallas menores o iguales a 600px */
@@ -568,10 +567,14 @@ img:hover {
         z-index: 1000;
     }
 
-    .menu-toggle{
+    .menu-toggle, .close-menu {
         display: block;
         font-size: 24px;
         cursor: pointer;
+    }
+
+    .close-menu {
+        display: none;
     }
 
     /* Otros estilos para el menú hamburguesa */
@@ -583,17 +586,10 @@ img:hover {
         display: block;
         padding: 10px;
         text-decoration: none;
-    }
-
-    .back-to-top {
-        font-size: 24px;
-        cursor: pointer;
-        position: fixed;
-        bottom: 20px;
-        right: 20px;
-        z-index: 1000;
+        color: #333;
     }
 }
+
 
 @media screen and (max-width:600px) 
 {

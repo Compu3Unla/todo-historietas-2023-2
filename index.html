@@ -7,49 +7,27 @@
 	<link href ="estilos.css" rel="stylesheet" type="text/css">
 	<link href="css-galeria-de-autores/jquery.fancybox.min.css" rel="stylesheet">
 	
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        const menuToggle = document.querySelector('.menu-toggle');
-        const closeMenu = document.querySelector('.close-menu');
-        const nav = document.querySelector('nav');
-        const backToTop = document.querySelector('.back-to-top');
 
-        menuToggle.addEventListener('click', function () {
-            nav.classList.toggle('show');
-            menuToggle.style.display = 'none';
-            closeMenu.style.display = 'block';
-            if (window.innerWidth <= 600) {
-                backToTop.style.display = 'none';
-            }
-        });
+<script src="script.js">
+	document.addEventListener('DOMContentLoaded', function () {
+    const menuToggle = document.querySelector('.menu-toggle');
+    const closeMenu = document.querySelector('.close-menu');
+    const nav = document.querySelector('nav');
 
-        closeMenu.addEventListener('click', function () {
-            nav.classList.remove('show');
-            closeMenu.style.display = 'none';
-            menuToggle.style.display = 'block';
-            if (window.innerWidth <= 600) {
-                backToTop.style.display = 'block';
-            }
-        });
-
-        backToTop.addEventListener('click', function () {
-            nav.classList.remove('show');
-            closeMenu.style.display = 'none';
-            menuToggle.style.display = 'block';
-            backToTop.style.display = 'none';
-        });
-
-        // Muestra el botón de "Ir para atrás" solo cuando el ancho de la pantalla es menor o igual a 600px y se hace scroll hacia abajo
-        window.addEventListener('scroll', function () {
-            if (window.innerWidth <= 600 && window.scrollY > 100) {
-                backToTop.style.display = 'block';
-            } else {
-                backToTop.style.display = 'none';
-            }
-        });
+    menuToggle.addEventListener('click', function () {
+        nav.classList.toggle('show');
+        menuToggle.style.display = 'none';
+        closeMenu.style.display = 'block';
     });
-</script>
 
+    closeMenu.addEventListener('click', function () {
+        nav.classList.remove('show');
+        closeMenu.style.display = 'none';
+        menuToggle.style.display = 'block';
+    });
+});
+
+</script>
 
 	
 </head>
@@ -59,13 +37,13 @@
 	<header class="index">
 		<a href="index.html"><img class="logo" src="img/logo.svg" alt="Logo" height="130px" width="250px" /></a>
 		<div class="menu-toggle">&#9776;</div>
+		<div class="close-menu">&#10006;</div>
 		<nav>
 			<a href= "#">Categor&iacute;as</a>
 			<a href= "#sobre-nosotros">Sobre nosotros</a>
 			<a href= "novedades.html">Novedades</a>
 			<a href= "#formulario">Contacto</a>
 		</nav>
-		 <div class="back-to-top">&#8593;</div>
 	</header>
 	<main>
 		<section class="carrusel">
