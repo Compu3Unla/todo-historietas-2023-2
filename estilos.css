@@ -783,7 +783,17 @@ form {
 
   .texto-personaje {
     font-size: 12px;
-    text-align: center;
+    text-align: left;
 	width: 400px;
 	}
+	
+	.contenedor-info-personaje img {
+	margin-right: 0px; 
+	margin-bottom: 60px; 
+}
+	
+	.columna-info-personaje img {
+		margin-bottom: 20px; 
+	}
+	
 }
