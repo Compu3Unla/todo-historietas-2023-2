@@ -588,20 +588,11 @@ img:hover {
     right: 20px;
 }
 
-#menu-toggle:checked ~ .close-menu {
-    display: block;
-}
-
-#menu-toggle:checked ~ nav {
-    opacity: 1;
-    pointer-events: auto;
-}
-
     .menu-toggle {
         display: block;
     }
 
-    nav {
+nav {
         background-color: #F9CA7F;
         position: fixed;
         top: 0;
@@ -619,32 +610,31 @@ img:hover {
         transition: opacity 0.3s ease-in-out;
     }
 
-    nav a {
-        text-decoration: none;
-        margin: 40px;
-    }
+   #menu-toggle:checked + .icon {
+    display: none;
+}
 
-    #menu-toggle:checked + .icon {
-        display: none;
-    }
+#menu-toggle:checked ~ .close-menu {
+    display: block;
+}
 
-    #menu-toggle:checked ~ .close-menu {
-        display: block;
-    }
-
-    #menu-toggle:checked ~ nav {
-        opacity: 1;
-        pointer-events: auto;
-    }
+#menu-toggle:checked ~ nav {
+    opacity: 1;
+    pointer-events: auto;
 }
 
 .close-menu:checked ~ .icon {
     display: block;
 }
 
+.close-menu:checked ~ .close-icon {
+    display: none;
+}
+	/* Añadido para que la cruz vaya hacia atrás */
 .close-menu:checked ~ nav {
     opacity: 0;
     pointer-events: none;
+}
 }
 
 @media screen and (max-width:600px) 
