@@ -135,6 +135,7 @@ input[type="radio"]:checked ~ .slider .imagen {
 	display: flex; 
 	flex-direction: column; 
 	align-items: center; 
+	margin-right: 50px; 
 }
 
 .intro-galeria p{
@@ -177,7 +178,7 @@ from {
 }
 
 .galeria-imagenes img {
-	padding: 10px; 
+	padding: 5px; 
 }
 
 /*sobre nosotros*/
