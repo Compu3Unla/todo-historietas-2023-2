@@ -635,11 +635,11 @@ nav {
     opacity: 0;
     pointer-events: none;
 }
-.close-menu:checked ~ nav {
+.close-menu:checked ~ nav a {
     opacity: 0;
     pointer-events: none;
 }
-	.close-icon:checked ~ nav {
+	.close-icon:checked ~ nav a {
     opacity: 0;
     pointer-events: none;
 }
