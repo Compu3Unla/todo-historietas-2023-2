@@ -550,6 +550,14 @@ img:hover {
     display: none;
 }
 
+#menu-toggle:checked + .icon {
+    display: none;
+}
+
+.icon, .close-icon{
+	display: none;
+}
+
 @media screen and (max-width: 600px) {
 
 .icon {
@@ -570,10 +578,6 @@ img:hover {
     position: absolute;
     top: 20px;
     right: 20px;
-}
-
-#menu-toggle:checked + .icon {
-    display: none;
 }
 
 #menu-toggle:checked ~ .close-menu {
