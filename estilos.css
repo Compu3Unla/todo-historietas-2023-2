@@ -142,7 +142,6 @@ input[type="radio"]:checked ~ .slider .imagen {
 	height: auto;
 	padding: 20px;
 	overflow: hidden;
-	white-space: nowrap;
 	animation: escribir 4s steps(60) forwards;
 }
 
