@@ -559,17 +559,13 @@ nav {
         left: 0;
         width: 100%;
         height: 100%;
-        background-color: #F9CA7F;
+        background-color: #fff; /* Ajusta el color de fondo según tus preferencias */
         flex-direction: column;
         align-items: center;
         justify-content: center;
         text-align: center;
         z-index: 1000;
     }
-	
-	nav .close-menu{
-		display: block;
-	}
 
     .menu-toggle, .close-menu {
         display: block;
@@ -592,7 +588,18 @@ nav {
         text-decoration: none;
         color: #333;
     }
+
+    .back-to-top {
+        display: none;
+        font-size: 24px;
+        cursor: pointer;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 1000;
+    }
 }
+
 
 
 @media screen and (max-width:600px) 

@@ -12,20 +12,40 @@
         const menuToggle = document.querySelector('.menu-toggle');
         const closeMenu = document.querySelector('.close-menu');
         const nav = document.querySelector('nav');
+        const backToTop = document.querySelector('.back-to-top');
 
         menuToggle.addEventListener('click', function () {
             nav.classList.toggle('show');
             menuToggle.style.display = 'none';
             closeMenu.style.display = 'block';
+            backToTop.style.display = 'none';
         });
 
         closeMenu.addEventListener('click', function () {
             nav.classList.remove('show');
             closeMenu.style.display = 'none';
             menuToggle.style.display = 'block';
+            backToTop.style.display = 'block';
+        });
+
+        backToTop.addEventListener('click', function () {
+            nav.classList.remove('show');
+            closeMenu.style.display = 'none';
+            menuToggle.style.display = 'block';
+            backToTop.style.display = 'none';
+        });
+
+        // Muestra el botón de "Ir para atrás" cuando se hace scroll hacia abajo
+        window.addEventListener('scroll', function () {
+            if (window.scrollY > 100) {
+                backToTop.style.display = 'block';
+            } else {
+                backToTop.style.display = 'none';
+            }
         });
     });
 </script>
+
 
 	
 </head>
@@ -42,6 +62,7 @@
 			<a href= "novedades.html">Novedades</a>
 			<a href= "#formulario">Contacto</a>
 		</nav>
+		 <div class="back-to-top">&#8593;</div>
 	</header>
 	<main>
 		<section class="carrusel">
