@@ -566,11 +566,19 @@ nav {
         text-align: center;
         z-index: 1000;
     }
+	
+	nav .close-menu{
+		display: block;
+	}
 
     .menu-toggle, .close-menu {
         display: block;
         font-size: 24px;
         cursor: pointer;
+    }
+
+    .close-menu {
+        display: none;
     }
 
     /* Otros estilos para el menú hamburguesa */
