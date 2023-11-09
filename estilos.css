@@ -633,15 +633,7 @@ nav {
 	/* Añadido para que la cruz vaya hacia atrás */
 #close-menu:checked ~ nav {
     opacity: 0;
-    pointer-events: none;
-}
-.close-menu:checked ~ nav a {
-    opacity: 0;
-    pointer-events: none;
-}
-	.close-icon:checked ~ nav a {
-    opacity: 0;
-    pointer-events: none;
+    pointer-events:auto;
 }
 }
 
