@@ -724,16 +724,16 @@ form {
 	display: flex;
 	flex-direction: column;
 	text-align: center;
-	margin: 10px 0;
+	align-items: center; 
   }
-
+	
 	.novedades .contenedor {
 	width: 290px; 
 	align-items: center;
   }
 	.texto-superpuesto {
 	width: 90%;
-	margin: 10px auto;
+	
   }
 
 	.texto-superpuesto-video{
@@ -746,11 +746,11 @@ form {
 	
 	.video-novedades{
 		width: 450px;
-		height: 500px; 
+		height: 550px; 
 		display: flex; 
-		flex-direction: column; 
-		align-content: center; 
+		flex-direction: column;  
 		align-items: center; 
+		justify-content: center; 
 	}
 
 	img:hover {
@@ -758,10 +758,6 @@ form {
   }
 
 /*media de info de personajes*/
-	
-	.tam_img{
-	
-	}
 	
   .contenedor-info-personaje {
     display: flex;
