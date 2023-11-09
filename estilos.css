@@ -134,7 +134,7 @@ input[type="radio"]:checked ~ .slider .imagen {
 	padding-top: 60px;
 }
 
-.galeria p{
+.intro-galeria p{
 	font-family: 'Barlow', sans-serif; 
 	font-style: normal; 
 	font-size: 20px;
