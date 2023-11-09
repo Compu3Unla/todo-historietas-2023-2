@@ -445,14 +445,13 @@ form {
 
 .novedades{
 	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap; 
 }
 
 .columna1{
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
+	margin-right: 80px; 
 }
 
 .columna2{
