@@ -389,10 +389,18 @@ form {
 	margin-top: 70px; 
 }
 
+.contenedor-info-personaje img {
+	margin-right: 50px; 
+}
+
 .columna-info-personaje {
 	display: flex;
 	flex-direction: column; 
 	align-items: center; 
+}
+
+.columna-info-personaje img {
+	margin-bottom: 20px; 
 }
 
 .texto-personaje {
