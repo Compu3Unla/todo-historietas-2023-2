@@ -668,6 +668,7 @@ h2 {
 
 	#sobre-nosotros {
 		margin-top: 15px; 
+		margin-bottom: 90px; 
 	}
 	
 /* media formulario*/
@@ -685,6 +686,7 @@ h2 {
 
 form {
 	margin-bottom: 30px; 
+	margin-top: -60px; 
 }
 
 .input-nombre, .input-correo, .input-asunto{
