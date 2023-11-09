@@ -545,48 +545,36 @@ img:hover {
 	transform: scale(1.2);
 }
 
-/* Estilos para pantallas mayores a 600px */
-nav {
-    display: none;
-}
-
-/* Estilos para pantallas menores o iguales a 600px */
-@media screen and (max-width: 600px) {
-    nav {
-        display: block;
-    }
-
-    .hamburger-menu {
-        display: block;
-        background: none;
-        border: none;
-        font-size: 24px;
-        cursor: pointer;
-    }
-}
-
 /* Estilos para pantallas menores o iguales a 600px */
 @media screen and (max-width: 600px) {
     nav {
         display: none;
+        text-align: center; /* Alinea los elementos del menú */
     }
 
-    nav.show {
+    .menu-toggle {
         display: block;
+        font-size: 24px;
+        cursor: pointer;
     }
 
     /* Otros estilos para el menú hamburguesa */
     nav a {
         display: block;
         padding: 10px;
-        text-align: center;
-        background-color: #333;
-        color: #fff;
         text-decoration: none;
+        color: #333;
     }
 }
 
+/* Estilos para pantallas menores o iguales a 600px */
+@media screen and (max-width: 600px) {
+    /* ... (estilos anteriores) ... */
 
+    nav.show {
+        display: block;
+    }
+}
 
 @media screen and (max-width:600px) 
 {
@@ -594,12 +582,6 @@ nav {
 	.index {
 		display: flex;
 		justify-content: space-between; 
-	}
-	.index nav {
-	display: flex;
-    align-items: center;
-    margin-right: 35px;
-    flex-direction: column;
 	}
 	
 	.logo {
