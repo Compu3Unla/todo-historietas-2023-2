@@ -727,8 +727,8 @@ form {
 	margin: 10px 0;
   }
 
-	.contenedor {
-	width: 100%;
+	.novedades .contenedor {
+	width: 290px; 
 	align-items: center;
   }
 	.texto-superpuesto {
