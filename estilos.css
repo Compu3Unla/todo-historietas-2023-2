@@ -589,7 +589,7 @@ img:hover {
     }
 
     nav {
-        background-color: #333;
+        background-color: #F9CA7F;
         position: fixed;
         top: 0;
         left: 0;
@@ -607,10 +607,8 @@ img:hover {
     }
 
     nav a {
-        color: #fff;
         text-decoration: none;
-        font-size: 24px;
-        margin: 20px;
+        margin: 40px;
     }
 
     #menu-toggle:checked + .icon {
