@@ -564,7 +564,8 @@ img:hover {
 	display: flex;
     align-items: center;
     margin-right: 35px;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
 	}
 	
 	nav a {
@@ -575,7 +576,6 @@ img:hover {
     text-align: center;
     padding: 10px;
     margin: 6px;
-    width: 82px;
     height: 7px;
     justify-content: center;
     align-items: center;
