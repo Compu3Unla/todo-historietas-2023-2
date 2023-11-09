@@ -10,24 +10,38 @@
 <script>
     document.addEventListener('DOMContentLoaded', function () {
         const menuToggle = document.querySelector('.menu-toggle');
+        const closeMenu = document.querySelector('.close-menu');
         const nav = document.querySelector('nav');
         const backToTop = document.querySelector('.back-to-top');
 
         menuToggle.addEventListener('click', function () {
             nav.classList.toggle('show');
             menuToggle.style.display = 'none';
-            backToTop.style.display = 'none';
+            closeMenu.style.display = 'block';
+            if (window.innerWidth <= 600) {
+                backToTop.style.display = 'none';
+            }
+        });
+
+        closeMenu.addEventListener('click', function () {
+            nav.classList.remove('show');
+            closeMenu.style.display = 'none';
+            menuToggle.style.display = 'block';
+            if (window.innerWidth <= 600) {
+                backToTop.style.display = 'block';
+            }
         });
 
         backToTop.addEventListener('click', function () {
             nav.classList.remove('show');
+            closeMenu.style.display = 'none';
             menuToggle.style.display = 'block';
             backToTop.style.display = 'none';
         });
 
-        // Muestra el botón de "Ir para atrás" cuando se hace scroll hacia abajo
+        // Muestra el botón de "Ir para atrás" solo cuando el ancho de la pantalla es menor o igual a 600px y se hace scroll hacia abajo
         window.addEventListener('scroll', function () {
-            if (window.scrollY > 100) {
+            if (window.innerWidth <= 600 && window.scrollY > 100) {
                 backToTop.style.display = 'block';
             } else {
                 backToTop.style.display = 'none';
