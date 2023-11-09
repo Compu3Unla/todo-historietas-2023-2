@@ -631,7 +631,7 @@ nav {
     display: none;
 }
 	/* Añadido para que la cruz vaya hacia atrás */
-#close-menu:checked ~ nav {
+#close-menu:checked~nav {
     opacity: 0;
     pointer-events:all;
 }
