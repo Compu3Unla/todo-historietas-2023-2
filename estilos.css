@@ -545,24 +545,12 @@ img:hover {
 	transform: scale(1.2);
 }
 
-
 @media screen and (max-width:600px) 
 {
 	
 	.index {
 		display: flex;
 		justify-content: space-between; 
-	}
-	.index nav {
-	display: flex;
-    align-items: center;
-    margin-right: 35px;
-    flex-direction: column;
-	}
-	
-	.logo {
-    width: 100%; 
-    text-align: center;
 	}
 	
 	header{
@@ -571,6 +559,33 @@ img:hover {
 	display: flex;
 	justify-content: center;
 	}
+	
+.index nav {
+	display: flex;
+    align-items: center;
+    margin-right: 35px;
+    flex-direction: row;
+    flex-wrap: wrap;
+	}
+	
+	nav a {
+	font-size: 12px;
+	display: flex;
+	color: #6D48C6;
+    font-family: "Barlow Medium";
+    text-align: center;
+    padding: 10px;
+    margin: 6px;
+    height: 7px;
+    justify-content: center;
+    align-items: center;
+	}
+	
+	.logo {
+    width: 100%; 
+    text-align: center;
+	}
+	
 	
 	footer {
 	width: 100%;
@@ -738,6 +753,7 @@ form {
 
 	.texto-superpuesto-video{
 		width: 350px;
+		margin-right: -10px
 	}
 	
 	.bold {
@@ -767,7 +783,17 @@ form {
 
   .texto-personaje {
     font-size: 12px;
-    text-align: center;
+    text-align: left;
 	width: 400px;
 	}
+	
+	.contenedor-info-personaje img {
+	margin-right: 0px; 
+	margin-bottom: 60px; 
+}
+	
+	.columna-info-personaje img {
+		margin-bottom: 20px; 
+	}
+	
 }
