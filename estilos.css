@@ -811,6 +811,7 @@ form {
 
 	.texto-superpuesto-video{
 		width: 350px;
+		margin-right: -10px
 	}
 	
 	.bold {
