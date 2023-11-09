@@ -804,7 +804,7 @@ form {
 
   .texto-personaje {
     font-size: 12px;
-    text-align: center;
+    text-align: left;
 	width: 400px;
 	}
 }
