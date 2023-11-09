@@ -144,6 +144,15 @@ input[type="radio"]:checked ~ .slider .imagen {
 	animation: teclear 3s steps(16);
 }
 
+@keyframes teclear{
+	from {
+		clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+	}
+	to{
+		clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+	}
+}
+
 .galeria{
 	background: #F9CA7F;
 	border-radius: 45px;
