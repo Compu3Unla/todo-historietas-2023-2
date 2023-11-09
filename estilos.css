@@ -129,7 +129,9 @@ input[type="radio"]:checked ~ .slider .imagen {
 	width: 30%;
 }
 .flex-galeria{
-	display: flex
+	display: flex;
+	justify-content: center;
+	padding-top: 60px;
 }
 
 .galeria p{
