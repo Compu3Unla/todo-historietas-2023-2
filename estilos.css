@@ -550,10 +550,6 @@ img:hover {
     display: none;
 }
 
-#menu-toggle:checked + .icon {
-    display: none;
-}
-
 .icon, .close-icon{
 	display: none;
 }
