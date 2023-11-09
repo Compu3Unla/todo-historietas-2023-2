@@ -546,9 +546,6 @@ img:hover {
 }
 
 /* Estilos para pantallas mayores a 600px */
-nav {
-    display: block;
-}
 
 .menu-toggle, .close-menu, .back-to-top{
 	display: none;
