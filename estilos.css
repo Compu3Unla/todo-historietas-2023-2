@@ -590,7 +590,7 @@ img:hover {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-top: 100px;
+    margin: 50px;
     flex-wrap: nowrap;
 	}
 	
