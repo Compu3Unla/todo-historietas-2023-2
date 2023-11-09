@@ -545,6 +545,48 @@ img:hover {
 	transform: scale(1.2);
 }
 
+/* Estilos para pantallas mayores a 600px */
+nav {
+    display: none;
+}
+
+/* Estilos para pantallas menores o iguales a 600px */
+@media screen and (max-width: 600px) {
+    nav {
+        display: block;
+    }
+
+    .hamburger-menu {
+        display: block;
+        background: none;
+        border: none;
+        font-size: 24px;
+        cursor: pointer;
+    }
+}
+
+/* Estilos para pantallas menores o iguales a 600px */
+@media screen and (max-width: 600px) {
+    nav {
+        display: none;
+    }
+
+    nav.show {
+        display: block;
+    }
+
+    /* Otros estilos para el menú hamburguesa */
+    nav a {
+        display: block;
+        padding: 10px;
+        text-align: center;
+        background-color: #333;
+        color: #fff;
+        text-decoration: none;
+    }
+}
+
+
 
 @media screen and (max-width:600px) 
 {
@@ -565,12 +607,6 @@ img:hover {
     text-align: center;
 	}
 	
-	header{
-	width: 100%;
-	height: auto;
-	display: flex;
-	justify-content: center;
-	}
 	
 	footer {
 	width: 100%;
