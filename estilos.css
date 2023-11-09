@@ -580,6 +580,24 @@ img:hover {
 	height: 700px; 
 	}
 	
+.geleria-de-autores{
+	display: flex;
+    flex-direction: column;
+	}
+	
+
+.galeria-imagenes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 100px;
+    flex-wrap: nowrap;
+	}
+	
+.carrusel{
+	height: 0px;
+	}
+	
 /* media sobre nosotros */
 	
 h2 {
