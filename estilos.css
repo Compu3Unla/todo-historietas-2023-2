@@ -573,10 +573,6 @@ nav {
         cursor: pointer;
     }
 
-    .close-menu {
-        display: none;
-    }
-
     /* Otros estilos para el menú hamburguesa */
     nav.show {
         display: flex;
