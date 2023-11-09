@@ -532,7 +532,7 @@ img:hover {
 	
 	.index{
 	width: 100%;
-    height: 210px;
+    height: auto;
     display: flex;
 	justify-content: space-between;
 	}
@@ -593,6 +593,14 @@ img:hover {
     align-items: center;
     margin: 70px;
 	padding-left: 10px;
+	}
+	
+.galeria-imagenes img {
+		width: 100px; 
+	}
+	
+.intro-galeria {
+		width: 200px; 
 	}
 	
 .carrusel{
