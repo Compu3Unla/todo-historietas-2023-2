@@ -146,14 +146,12 @@ input[type="radio"]:checked ~ .slider .imagen {
 }
 
 @keyframes escribir{
-	  0% {
-    width: 0;
-  }
-  100% {
-    width: 100%;
-	height: auto;
-	padding: 20px
-  }
+from {
+		clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+	}
+	to{
+		clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+	}
 }
 
 .galeria{
