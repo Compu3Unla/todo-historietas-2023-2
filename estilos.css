@@ -596,10 +596,10 @@ img:hover {
 	height: 700px; 
 	}
 	
-.galeria-de-autores{
+	.galeria-de-autores{
 	display: flex;
     flex-direction: column;
-	margin: 0px;
+	margin-top: 50px;
 	}
 	
 
