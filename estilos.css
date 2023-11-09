@@ -527,16 +527,14 @@ img:hover {
 	transform: scale(1.2);
 }
 
+
 @media screen and (max-width:600px) 
 {
 	
-	.index{
-	width: 100%;
-    height: 210px;
-    display: flex;
-	justify-content: space-between;
+	.index {
+		display: flex;
+		justify-content: space-between; 
 	}
-	
 	.index nav {
 	display: flex;
     align-items: center;
@@ -595,6 +593,10 @@ img:hover {
 	padding-left: 10px;
 	}
 	
+.flex-autores {
+		margin-right: 0px; 
+	}
+	
 .carrusel{
 	height: auto;
 	}
@@ -640,6 +642,11 @@ h2 {
 	width: 430px;
 	font-size: 18px;
 }
+
+	#sobre-nosotros {
+		margin-top: 15px; 
+		
+	}
 	
 /* media formulario*/
 
