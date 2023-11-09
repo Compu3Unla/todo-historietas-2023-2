@@ -589,10 +589,10 @@ img:hover {
 
 .galeria-imagenes {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     align-items: center;
-    margin: 50px;
-    flex-wrap: nowrap;
+    margin: 70px;
+	padding-left: 10px;
 	}
 	
 .carrusel{
