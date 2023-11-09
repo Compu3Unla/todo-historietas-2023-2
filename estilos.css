@@ -141,6 +141,7 @@ input[type="radio"]:checked ~ .slider .imagen {
 	width: 500px;
 	height: auto;
 	padding: 20px;
+	animation: teclear 3s steps(16);
 }
 
 .galeria{
