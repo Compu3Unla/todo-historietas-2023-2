@@ -807,4 +807,9 @@ form {
     text-align: left;
 	width: 400px;
 	}
+	
+	.contenedor-info-personaje img {
+	margin-right: 0px; 
+}
+	
 }
