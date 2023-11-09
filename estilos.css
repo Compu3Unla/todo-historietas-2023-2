@@ -553,6 +553,20 @@ img:hover {
 		justify-content: space-between; 
 	}
 	
+	header{
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	}
+	
+.index nav {
+	display: flex;
+    align-items: center;
+    margin-right: 35px;
+    flex-direction: column;
+	}
+	
 	.logo {
     width: 100%; 
     text-align: center;
