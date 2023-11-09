@@ -567,6 +567,20 @@ img:hover {
     flex-direction: column;
 	}
 	
+	nav a {
+	font-size: 12px;
+	display: flex;
+	color: #6D48C6;
+    font-family: "Barlow Medium";
+    text-align: center;
+    padding: 10px;
+    margin: 6px;
+    width: 82px;
+    height: 7px;
+    justify-content: center;
+    align-items: center;
+	}
+	
 	.logo {
     width: 100%; 
     text-align: center;
